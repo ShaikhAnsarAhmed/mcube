@@ -1,0 +1,11 @@
+/* tailwind-custom.css */
+
+/* First, include the @tailwind utilities directive */
+@tailwind utilities;
+
+/* Then define your custom utilities */
+@layer utilities {
+  .custom-container {
+    @apply sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0 ;
+  }
+}

@@ -1,0 +1,137 @@
+/* THE MAIN IMPORT {FONTS, ETC..} SECTION START */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Teko&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* THE MAIN IMPORT {FONTS, ETC..} SECTION END  */
+
+/* THE MAIN BODY SECTION START */
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+/* THE MAIN BODY SECTION END  */
+
+/* THE HOMEPAGE/LANDING PAGE PARTICLES ANIMATION SECTION CSS START */
+.background-animate {
+  background-size: 200% auto;
+  -webkit-animation: AnimationName 7s ease infinite;
+  -moz-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;
+}
+
+@keyframes AnimationName {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* THE HOMEPAGE/LANDING PAGE PARTICLES ANIMATION SECTION CSS END */
+
+/* PAGES TITLES {ABOVE THE PARAGRAPHS} LINES SECTION CSS START */
+.sec-title {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+  z-index: 0;
+}
+
+.sec-title::before {
+  background-color: #004368;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 500px) {
+  .sec-title::before {
+    max-width: 75px;
+    z-index: 0;
+  }
+}
+
+.sec-title::after {
+  background-color: #004368;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  margin-bottom: 0.25em;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media screen and (min-width: 500px) {
+  .sec-title::after {
+    max-width: 75px;
+  }
+}
+
+li>ul {
+  transform: translatex(100%) scale(0);
+}
+
+li:hover>ul {
+  transform: translatex(101%) scale(1);
+}
+
+/* PAGES TITLES {ABOVE THE PARAGRAPHS} LINES SECTION CSS END */
+
+/* NAVBAR-BUTTONS BOTTOM LINE/BORDER ANIMATION SECTION CSS START */
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#004368, #004368);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+.link-underline-white {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline-white:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+/* NAVBAR-BUTTONS BOTTOM LINE/BORDER ANIMATION SECTION CSS END */
