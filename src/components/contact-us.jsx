@@ -9,10 +9,14 @@ function Contactus() {
           <div className=" border-2 border-primary p-5 rounded-xl">
             <div className="text-center">
               <h2 className="text-xl 2xl:text-3xl font-semibold text-black">
-                Have Any Questions? Let&apos;s Answer Them
+                Have any questions or want to get in touch
               </h2>
+              <p className="pt-2">
+                Please drop in your details and one of our team members will get
+                back to you soon !
+              </p>
             </div>
-            <div className="py-10">
+            <div className=" pt-5 pb-10">
               <div className="max-w-2xl mx-auto">
                 <form>
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">

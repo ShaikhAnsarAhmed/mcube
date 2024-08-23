@@ -22,17 +22,18 @@ const aboutUsArray = [
   {
     id: 21,
     name: "Mobile Attendance App",
-    link: "/MobileAttendance",
+    link: "/mobile-attendance-app",
   },
+
   {
     id: 22,
     name: "CMS Software",
-    link: "/CMSSoftware",
+    link: "/cms-for-schools",
   },
   {
     id: 23,
-    name: "ERP for Schools",
-    link: "/ERPforSchools",
+    name: "M-CRM ERP",
+    link: "/m-crm",
   },
   {
     id: 3,
@@ -162,7 +163,7 @@ function Footer() {
             </h1>
             <Link
               className=" mt-7  py-3 px-5 lg:px-8 lg:py-3 2xl:px-10 2xl:py-4 border border-white  bg-transparent text-white text-lg lg:text-lg 2xl:text-2xl font-semibold hover:bg-white hover:text-[#004368] hover:border-white"
-              href=""
+              href="/contact-us"
             >
               Let&apos;s talk!
             </Link>

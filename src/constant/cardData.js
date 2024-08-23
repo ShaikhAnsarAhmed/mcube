@@ -37,37 +37,31 @@ const EBSData = [
     title: "Business Process Review",
     icon: <FaBookReader className=" group-hover:text-white text-3xl" />,
     desc: "Our consultants conduct a thorough analysis of your current business processes to identify gaps and opportunities for improvement. We work with your team to design a future-state  business process that aligns with your business objectives.",
-    linkSrc: "",
   },
   {
     title: "System Design & Configuration",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
     desc: "We design and the Oracle eBusiness Suite ERP system to meet your specific business requirements. Our consultants work closely with your team to ensure that the system is fully integrated with your existing business processes.",
-    linkSrc: "",
   },
   {
     title: "Data Migration",
     icon: <FaUpload className=" group-hover:text-white text-3xl" />,
     desc: "  We provide data migration services to ensure that your existing data is accurately transferred to the new system. Our consultants follow industry best practices to ensure data integrity and security.",
-    linkSrc: "",
   },
   {
     title: " Testing",
     icon: <FaUsb className=" group-hover:text-white text-3xl" />,
     desc: "  Our consultants conduct rigorous testing to ensure that the system is functioning as expected. We conduct various types of testing, including unit testing, integration testing, and user acceptance testing.",
-    linkSrc: "",
   },
   {
     title: "Training",
     icon: <FaChromecast className=" group-hover:text-white text-3xl" />,
     desc: " We provide comprehensive training to your team to ensure that they are proficient in using the new system. Our training is customized to meet your specific needs and includes both classroom and hands-on training.",
-    linkSrc: "",
   },
   {
     title: "Ongoing Support",
     icon: <FaTeamspeak className=" group-hover:text-white text-3xl" />,
     desc: " We provide ongoing support to ensure that your system is running smoothly. Our support services include issue resolution, system maintenance, and system enhancement.",
-    linkSrc: "",
   },
 ];
 
@@ -83,45 +77,45 @@ const serviceData = [
     icon: <AiOutlineCloudServer className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "/ProjectManagement",
+    linkSrc: "/project-management",
     title: "Project Management",
     icon: <AiOutlineFundView className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "/DataMigration",
+    linkSrc: "/data-migration",
     title: "Data Migration",
     icon: (
       <AiOutlineDeploymentUnit className=" group-hover:text-white text-3xl" />
     ),
   },
   {
-    linkSrc: "/ManagedServices",
+    linkSrc: "/managed-services",
     title: "Managed Services",
     icon: <AiOutlineSchedule className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "/Upgrades",
+    linkSrc: "/upgrades",
     title: "Upgrades",
     icon: <AiOutlineSafety className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "/Reporting",
+    linkSrc: "/reporting",
     title: "Reporting",
     icon: <AiOutlineFieldTime className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "/CutoverManagement",
+    linkSrc: "/cutover-management",
     title: "Cutover Management",
     icon: <AiOutlineCluster className=" group-hover:text-white text-3xl" />,
   },
 
   {
-    linkSrc: "/Training",
+    linkSrc: "/training",
     title: "Training",
     icon: <AiOutlineApi className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "/CustomExtensions",
+    linkSrc: "/custom-extensions",
     title: "Custom Extensions & Integrations",
     icon: <AiOutlineSisternode className=" group-hover:text-white text-3xl" />,
   },
@@ -129,25 +123,21 @@ const serviceData = [
 
 const aboutCardData = [
   {
-    linkSrc: "",
     title: "Integrity",
     desc: "We are committed to upholding the highest ethical standards in all our interactions with our clients and partners.",
     icon: <FaExpeditedssl className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Excellence",
     desc: " We strive for excellence in everything we do, and are always looking for ways to improve and innovate.",
     icon: <FaChartLine className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Collaboration",
     desc: "We work closely with our clients and partners to achieve shared goals and deliver the best possible outcomes.",
     icon: <FaUsers className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Agility",
     desc: "We are responsive and adaptable, and can quickly adjust our approach to meet changing business needs.",
     icon: <FaMendeley className=" group-hover:text-white text-3xl" />,
@@ -155,25 +145,21 @@ const aboutCardData = [
 ];
 const oracalERPCloudeCardData = [
   {
-    linkSrc: "",
     title: " Experienced and certified consultants",
     desc: " Our team of experienced consultants has a deep understanding of business transformation and the tools and technologies required to make it a success.",
     icon: <FaUserSecret className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Tailored approach",
     desc: " We take a tailored approach to each and every project, ensuring that your business transformation is unique to your organization and its specific needs.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Results-driven approach",
     desc: " Our focus is on delivering real, tangible results for our clients, and we measure our success by the positive impact we have on their bottom line.",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Comprehensive services",
     desc: "Our business transformation services cover a wide range of areas, from process optimization and technology implementation to change management and continuous improvement.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -181,7 +167,6 @@ const oracalERPCloudeCardData = [
 ];
 const projectManagementData = [
   {
-    linkSrc: "",
     title: " Project Planning",
     desc: "",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
@@ -194,7 +179,6 @@ const projectManagementData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Project Execution",
     desc: " ",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
@@ -207,7 +191,6 @@ const projectManagementData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Project Monitoring And Control",
     desc: "",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -220,7 +203,6 @@ const projectManagementData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Project Closure",
     desc: "",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -232,7 +214,6 @@ const projectManagementData = [
     ],
   },
   {
-    linkSrc: "",
     title: " Project Initiation",
     desc: "",
     icon: <FaUserSecret className=" group-hover:text-white text-3xl" />,
@@ -246,7 +227,6 @@ const projectManagementData = [
 ];
 const DataMigrationData = [
   {
-    linkSrc: "",
     title: "Planning Phase",
     desc: "",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
@@ -259,7 +239,6 @@ const DataMigrationData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Extraction Phase",
     desc: " ",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
@@ -271,7 +250,6 @@ const DataMigrationData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Loading Phase",
     desc: "",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -283,7 +261,6 @@ const DataMigrationData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Validation Phase",
     desc: "",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -295,7 +272,6 @@ const DataMigrationData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Post-Migration Phase",
     desc: "",
     icon: <FaUserSecret className=" group-hover:text-white text-3xl" />,
@@ -309,7 +285,6 @@ const DataMigrationData = [
 ];
 const ManagedServicesData = [
   {
-    linkSrc: "",
     title: "Service Delivery Principles",
     desc: "",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
@@ -321,7 +296,6 @@ const ManagedServicesData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Service Desk Principles",
     desc: " ",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
@@ -343,7 +317,6 @@ const ManagedServicesData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Security Principles",
     desc: "",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -354,7 +327,6 @@ const ManagedServicesData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Reporting And Analytics Principles",
     desc: "",
     icon: <FaUserSecret className=" group-hover:text-white text-3xl" />,
@@ -366,13 +338,11 @@ const ManagedServicesData = [
 ];
 const ManagedServicesStepsData = [
   {
-    linkSrc: "",
     title: "Initiation And Planning",
     desc: "Define the scope of services, establish the service delivery model, and develop the SLAs and reporting requirements",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Transition",
     desc: "Migrate the IT environment from the customer's IT team to the Managed Service Provider's team ",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
@@ -384,7 +354,6 @@ const ManagedServicesStepsData = [
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Continuous Improvement",
     desc: "Continuously review and improve the service delivery processes to optimize service quality and delivery efficiency, and implement best practices and emerging technologies to enhance the IT environment's reliability and performance.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -392,7 +361,6 @@ const ManagedServicesStepsData = [
 ];
 const UpgradesData = [
   {
-    linkSrc: "",
     title: "Assessment And Planning",
     desc: "",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
@@ -404,7 +372,6 @@ const UpgradesData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Data Migration",
     desc: "",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
@@ -426,7 +393,6 @@ const UpgradesData = [
     ],
   },
   {
-    linkSrc: "",
     title: "Testing And Validation",
     desc: "",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -436,7 +402,6 @@ const UpgradesData = [
     ],
   },
   {
-    linkSrc: "",
     title: "",
     desc: "Deployment And Go-Live",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -449,31 +414,26 @@ const UpgradesData = [
 
 const UpgradsDataTwo = [
   {
-    linkSrc: "",
     title: "Functionality",
     desc: "Evaluate the extent to which the business processes and functionality in EBS need to be migrated to Oracle Cloud ERP, and identify any gaps that may require customizations or extensions.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Customizations",
     desc: "Determine the best approach for migrating any customizations or extensions from EBS to Oracle Cloud ERP, and assess the impact of any changes to the customizations.",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Data",
     desc: "Ensure that the data extracted from EBS is complete, accurate, and appropriately mapped to the corresponding Oracle Cloud ERP data structures.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Integration",
     desc: "Consider any third-party systems or applications that need to be integrated with Oracle Cloud ERP, and assess the impact of any changes to the integration points.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Testing",
     desc: "Conduct comprehensive testing to ensure that the migrated data, customizations, and configurations are working as expected and meeting the desired outcomes.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -482,25 +442,21 @@ const UpgradsDataTwo = [
 
 const ReportingDataOne = [
   {
-    linkSrc: "",
     title: "User-Friendly Interface",
     desc: "OTBI has a drag-and-drop interface that makes report creation easy, even for users who are not technically inclined.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Real-Time Data Access",
     desc: "OTBI allows users to access real-time data directly from their Oracle ERP system, so reports always reflect the latest information.",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Interactive Dashboards",
     desc: "OTBI allows users to create interactive dashboards that provide a consolidated view of multiple reports and KPIs.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Mobile Compatibility",
     desc: "OTBI is compatible with mobile devices, so users can access and view reports on-the-go.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -508,25 +464,21 @@ const ReportingDataOne = [
 ];
 const ReportingDataTwo = [
   {
-    linkSrc: "",
     title: "Advanced Formatting Options",
     desc: "BIP allows users to create highly customized reports with advanced formatting options such as watermarks, conditional formatting, and table of contents.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Integration With Multiple Data Sources",
     desc: "BIP can integrate data from multiple sources such as XML, databases, and spreadsheets, making it easy to create complex reports with data from different sources.",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Report Bursting",
     desc: "BIP allows users to create and distribute multiple versions of the same report to different stakeholders based on their roles or preferences.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Automated Delivery",
     desc: "BIP can automatically deliver reports to stakeholders via email, FTP, or other channels based on pre-defined schedules.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -534,31 +486,26 @@ const ReportingDataTwo = [
 ];
 const ReportingDataThree = [
   {
-    linkSrc: "",
     title: "Needs Assessment",
     desc: "We start by assessing our client's reporting needs and requirements. This involves understanding their business processes, data sources, and reporting objectives.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Solution Design",
     desc: "Based on the client's reporting requirements, we design a customized solution that leverages the best Oracle reporting tools for their needs. This includes selecting the right reporting tools and creating a reporting architecture that ensures data accuracy, security, and scalability.",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Report Development",
     desc: "Once the solution design is finalized, our team of Oracle experts develops the reports using the selected reporting tools. We ensure that the reports are accurate, easy to use, and meet the client's specific reporting requirements.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Testing And Validation",
     desc: "Once the reports are tested and validated, we deploy them in the client's environment and provide training to their users. We ensure that the users understand how to use the reports effectively and get the most out of their reporting solution.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Ongoing Support",
     desc: "We rigorously test the reports to ensure that they are accurate, reliable, and meet the client's requirements. This includes testing the reports for data accuracy, performance, and functionality.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -566,37 +513,31 @@ const ReportingDataThree = [
 ];
 const CutoverManagementData = [
   {
-    linkSrc: "",
     title: "Cutover Plan Development",
     desc: "The first step in cutover management is to develop a comprehensive cutover plan that outlines all the tasks, timelines, and dependencies required for a successful cutover. The plan should include a detailed schedule of activities, risk assessments, and contingency plans.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Data Migration",
     desc: "The next step is to migrate data from the old system to the new system. This involves extracting data from the old system, validating and transforming the data, and then loading it into the new system.",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "User Acceptance Testing",
     desc: "Before the cutover, it's critical to perform user acceptance testing (UAT) to ensure that the new system meets the business requirements and is functioning as expected. This involves testing all the business processes and transactions in the new system to ensure that they are accurate and complete.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Cut-Off",
     desc: "The cut-off is the point at which the old system is no longer used, and the new system becomes operational. This involves a series of activities, including final data migration, verification, and validation, and switching over to the new system.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Post-Cutover Activities",
     desc: "After the cutover, it's essential to perform post-cutover activities to ensure that the new system is functioning correctly. This includes validating the data, testing the business processes, and addressing any issues that arise.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Hypercare Support",
     desc: "Hypercare support is a critical aspect of cutover management. It involves providing additional support to users during the initial period after the cutover to ensure that they can operate the new system effectively.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -604,37 +545,31 @@ const CutoverManagementData = [
 ];
 const CustomExtensionsData = [
   {
-    linkSrc: "",
     title: "Requirements Gathering",
     desc: "The first step is to gather requirements for the custom extension or integration. This involves understanding the business processes, data sources, and objectives for the custom development.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Solution Design",
     desc: "Based on the requirements, we design a customized solution that leverages the best Oracle tools and technologies for the specific use case. This includes selecting the right integration tools and creating a design that ensures data accuracy, security, and scalability.",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Development",
     desc: "Once the solution design is finalized, our team of Oracle experts develops the custom extension or integration using the selected tools. We ensure that the code is high quality, easy to maintain, and meets the specific requirements.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Testing And Validation",
     desc: "We rigorously test the custom extension or integration to ensure that it meets the business requirements, is reliable, and functions correctly. This includes testing the custom development for data accuracy, performance, and functionality.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Implementation And Deployment",
     desc: "Once the custom extension or integration is tested and validated, we deploy it in the client's environment. We ensure that it is properly integrated with the existing ERP system and other systems and meets the client's specific requirements.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Ongoing Support",
     desc: "We provide ongoing support to our clients to ensure that their custom extension or integration continues to meet their evolving needs. This includes troubleshooting issues, providing maintenance and upgrades, and ensuring that the custom development remains up-to-date with the latest Oracle technologies.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -642,37 +577,31 @@ const CustomExtensionsData = [
 ];
 const TrainingData = [
   {
-    linkSrc: "",
     title: "Understanding The Client's Needs Requirements Gathering",
     desc: "It is essential to understand the client's specific needs and requirements before designing the training program. This includes understanding the client's business processes, system configuration, and overall training goals.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Course Content",
     desc: "Oracle offers a wide range of courses covering various aspects of the ERP system. You need to carefully select the courses that best meet the client's needs and ensure that the course content is relevant and up-to-date.",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Delivery Methods",
     desc: "Oracle training is available in various formats, including online courses, classroom training, virtual classrooms, and self-paced learning. You need to select the delivery method that is most appropriate for the client's needs, taking into account factors such as location, time constraints, and budget.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Trainers",
     desc: "Oracle training should be delivered by certified trainers who are experts in the ERP system. It is essential to select trainers who have extensive experience in implementing, configuring, and customizing the system, and who can provide valuable insights and best practices based on their real-world experience.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Training Environment",
     desc: "It is important to provide a suitable training environment that is conducive to learning. This includes selecting a suitable venue, providing the necessary training equipment, and ensuring that the training environment is comfortable and free from distractions.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Support",
     desc: "It is essential to provide support to participants during and after the training program. This includes providing access to training materials, answering questions, and providing ongoing support to help participants apply their new skills and knowledge in the workplace.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -681,73 +610,61 @@ const TrainingData = [
 
 const CMSsoftwareData = [
   {
-    linkSrc: "",
     title: "Admission Management",
     desc: "Our CMS makes admission automation very easy at the level of course specifications and seat allocation, fee structure, and eligibility criteria. It offers integration with financial modules seamlessly and supports different admission types such as merit-based and entrance examinations.",
     icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Timetable Automation",
     desc: "It generates and manages automated schedules, considering various factors such as course requirements, the availability of faculty, and infrastructure constraints. It facilitates dynamic adjustments and generates detailed reporting related to timetable changes",
     icon: <FaSignal className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Learning Management System (LMS)",
     desc: "Our LMS empowers institutions with tools for digital content creation, delivery, tracking of performance, and assessment. It helps students get learning material anytime, thus facilitating flexible and convenient learning experiences from anywhere",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: " Student Attendance",
     desc: "Attendance management: The attendance module supports multi-modal attendance capture from simple manual entries at one end to completely automated, bio.metric-based systems at the other. It also maintains a complete record of attendance and generates detailed reports.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Examination Management",
     desc: "The examination module automates the whole examination process of scheduling, invigilation, compilation of results, and re-evaluation. It supports a diversity of examination formats and ensures efficient, error-free examination workflows.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Placement Services",
     desc: "Our CMS manages campus placement processes through Job Posting, Student Registrations, Resume Formations, and Placement Events. It also offers services in the areas of Career Guidance and Pre-Screening",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Academic Management",
     desc: "The academic module automates all academic activities like course settings, syllabus patterns, concurrent evaluations, and progress monitoring. It aids various programs in education and makes the whole system paperless, which saves a lot of time and reduces costs.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Research Management",
     desc: "It facilitates management of research projects, publications, conferences, patents, and faculty development programmes. It also automates workflows in research courses and funded research project management.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Financial Management",
     desc: "The automation of all financial transactions is provided through our finance module so as to provide consolidated Balance Sheets, P&L Statement, Cash Flow Analysis, and Budgetary Management. This module has the advantage of amalgamation with other modules for correct financial reporting. It supports comprehensive financial planning and offers real-time financial insights. Additionally, it ensures compliance with financial regulations and standards.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Library and Infrastructure Management",
     desc: "These modules automate the management of library resources and physical infrastructure—essentially focused on efficient use and easy accessibility. They fully support the life cycle of library items and infrastructure assets from procurement to maintenance.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Human Resources and Employee Management",
     desc: "The human resource module automates the process related to recruitment, onboarding, training, attendance, leave management, and payroll processing. It ensures efficient management of human resources to support employee satisfaction and productivity.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Feedback and Performance Evaluation",
     desc: "Our CMS contains modules for feedback collection and analysis, performance evaluation based on customizable templates and indicators—this will come in handy in the process of continuous improvement while keeping up with the high standards of education and administration",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
@@ -756,7 +673,6 @@ const CMSsoftwareData = [
 
 const mCrm = [
   {
-    linkSrc: "",
     title: "Dashboard",
     desc: `Dashboard where we will see From here, the number of leads, quotations & Orders are there and for confirmed orders across pre-order and period wise.
 
@@ -769,7 +685,6 @@ A table containing list of pending activities assigned to employees.`,
   },
 
   {
-    linkSrc: "",
     title: "Leads",
     desc: `Leads: This is the section where we can create new leads or check out lists of suspects that have been gathered from various sources such as calls, site visits and referrals.
 
@@ -784,7 +699,6 @@ But if the customer is not willing, we close lead`,
   },
 
   {
-    linkSrc: "",
     title: " Order Confirmation",
     desc: `This section displays only the lists of customers.
 
@@ -800,7 +714,6 @@ When everything is okay we click the confirm order button.`,
     icon: <GiConfirmed className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Confirmed Orders",
     desc: `We can view all confirmed orders list here in this given section. And you also noticed the details here
 
@@ -822,7 +735,6 @@ Once the product is ready, you get a delivery slip.`,
     icon: <MdConfirmationNumber className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Invoices",
     desc: `View Invoices— As we can see the same all invoices and as well their details.
 
@@ -838,7 +750,6 @@ Issue new payments from here it stores all the payment records.`,
     icon: <FaFileInvoice className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Reports",
     desc: `In the sections of the report, there are three categories DSR,Sales Reports,Stock Reports,DSR stands for daily sales reports and admin can check how many sales are done by employees.
 In the Sales report admin can download the pdf of monthly quotation sales done by an employee.
@@ -846,14 +757,12 @@ In Stock reports, admin can see how many stocks are there in each warehouse.`,
     icon: <HiDocumentReport className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Master",
     desc: `In the Master section admin can add/update leads, new/updated products, add BOM and production steps of a product, add Warehouse, add scaling units, product categories, add different materials, entries of all the employees etc.
 `,
     icon: <RiAdminFill className=" group-hover:text-white text-3xl" />,
   },
   {
-    linkSrc: "",
     title: "Opportunities",
     desc: `Here you will be able to view a list of potential customer leads/opportunities which have been converted into Opportunities. After a marketing plan executed for specific groups of potential buyers that had been prepared in advance — part expressed interest and was identified.
 

@@ -51,14 +51,15 @@ function Homepage() {
                   cursorColor="#004368"
                 />
               </h2>
-              <div className="mt-3 sm:mt-10 2xl:mt-16">
+              {/* <div className="mt-3 sm:mt-10 2xl:mt-16">
                 <Link
                   className="py-3 px-5 border border-white rounded-sm bg-transparent text-white text-lg lg:text-lg 2xl:text-2xl font-semibold hover:bg-white hover:text-[#004368] hover:border-white"
                   href=""
+                  
                 >
                   Start Now
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className="justify-self-end self-start pt-0 sm:pt-0 md:pt-12 lg:pt-0 2xl:pt-0 relative z-20">
               <Image src={bannerImage} alt="img" className="" />
