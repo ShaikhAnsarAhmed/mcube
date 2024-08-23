@@ -68,7 +68,7 @@ export const NavData = [
           },
           {
             title: "Training",
-            LinkHref: "/treaning",
+            LinkHref: "/training",
           },
         ],
       },
