@@ -6,7 +6,7 @@ import Footer from "@/components/global/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL("https://mcube.consulting/"),
+  metadataBase: new URL("https://www.mcube.consulting"),
   title: "MCube is a leading Digital Services and Consulting Company.",
   description:
     "MCube is specialize in Oracle ERP implementations and have an affiliate company that masters Web Development, Software Development and Digital Marketing",
@@ -15,7 +15,7 @@ export const metadata = {
     title: "MCube is a leading Digital Services and Consulting Company.",
     description:
       "MCube is specialize in Oracle ERP implementations and have an affiliate company that masters Web Development, Software Development and Digital Marketing",
-    url: "https://mcube.consulting",
+    url: "https://www.mcube.consulting",
     siteName: "MCUBE CONSULTING",
     type: "website",
     images: [
