@@ -59,11 +59,11 @@ function ERPschools() {
             Offers multiple menu iterations for processing sales and marketing
             communications, customer-facing interactions/offers.
           </p>
-          <div className="py-10">
+          <div className="py-5">
             <SubHeadingLeft title="Key Features" />
           </div>
           <div className="py-10">
-            <CommonCard cardData={mCrm} gridData="sm:grid-cols-2" />
+            <CommonCard cardData={mCrm} gridData="sm:grid-cols-1" />
           </div>
         </div>
       </div>

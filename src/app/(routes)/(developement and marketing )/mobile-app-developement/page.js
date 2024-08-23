@@ -43,7 +43,7 @@ export const metadata = {
 function page() {
   return (
     <>
-      <LandinBannaer title="MOBILE APP DEVELOPMENT" />
+      <LandinBannaer title="Mobile App Development" />
       <Mobileappdevlopement />
     </>
   );

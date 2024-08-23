@@ -44,7 +44,7 @@ function page() {
   return (
     <>
       {" "}
-      <LandinBannaer title="SOFTWARE DEVELOPMENT" />
+      <LandinBannaer title="Software Development" />
       <Softwaredevelopement />
     </>
   );

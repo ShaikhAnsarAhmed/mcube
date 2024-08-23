@@ -64,8 +64,8 @@ function ERPschools() {
             <CommonCard
               cardData={CMSsoftwareData}
               gridData="sm:grid-cols-2"
-              descClassName="sm:h-32 h-32 2xl:h-24"
-              titleClassName="h-28"
+              descClassName="sm:h-48 h-32 2xl:h-24"
+              titleClassName="h-20"
             />
           </div>
         </div>
