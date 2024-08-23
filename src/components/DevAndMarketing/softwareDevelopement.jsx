@@ -24,22 +24,6 @@ function Softwaredevelopement() {
             <div className="py-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
               <div className="image-container relative overflow-hidden rounded-lg shadow-lg hover:scale-105  transition duration-500  hover:shadow-xl">
                 <Image
-                  src="/images/5467426_1720.jpg"
-                  width={500}
-                  height={500}
-                  className="rounded-lg object-cover"
-                  alt="Picture of the author"
-                />
-                <div className="overlay absolute bottom-0 left-0 w-full h-1/2 bg-gray-900 bg-opacity-75 flex items-center justify-center transform translate-y-full transition-transform duration-500">
-                  <div className="text-white text-center p-4 ">
-                    <p className="text-lg font-extrabold">
-                      Mobile App Developement
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="image-container relative overflow-hidden rounded-lg shadow-lg hover:scale-105  transition duration-500  hover:shadow-xl">
-                <Image
                   src="/images/erp.jpg"
                   width={500}
                   height={500}
@@ -116,6 +100,22 @@ function Softwaredevelopement() {
                   <div className="text-white text-center p-4">
                     <p className="text-lg font-extrabold">
                       Web App Development
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="image-container relative overflow-hidden rounded-lg shadow-lg hover:scale-105  transition duration-500  hover:shadow-xl">
+                <Image
+                  src="/images/5467426_1720.jpg"
+                  width={500}
+                  height={500}
+                  className="rounded-lg object-cover"
+                  alt="Picture of the author"
+                />
+                <div className="overlay absolute bottom-0 left-0 w-full h-1/2 bg-gray-900 bg-opacity-75 flex items-center justify-center transform translate-y-full transition-transform duration-500">
+                  <div className="text-white text-center p-4 ">
+                    <p className="text-lg font-extrabold">
+                      Mobile App Developement
                     </p>
                   </div>
                 </div>
