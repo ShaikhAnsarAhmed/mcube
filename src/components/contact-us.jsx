@@ -17,7 +17,7 @@ function Contactus() {
             <Heading title="Our Location" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-5">
-            <div className="bg-gray-400/30 pl-2 py-2 border-l-4 border-secondary my-0 max-w-[500px]">
+            <div className="bg-gray-400/30 pl-4 w-full py-2 border-l-4 border-secondary my-0 max-w-[500px]">
               <h3 className="text-primary text-xl font-bold ">Dubai </h3>
               <p className="py-2 text-lg font-normal">
                 MCube Consulting - FZCO
@@ -26,7 +26,7 @@ function Contactus() {
                 Dubai - UAE
               </p>
             </div>
-            <div className="bg-gray-400/30 pl-2 py-2 border-l-4 border-secondary my-0 max-w-[500px]">
+            <div className="bg-gray-400/30 pl-4 w-full py-2 border-l-4 border-secondary my-0 max-w-[500px]">
               <h3 className="text-primary text-xl font-bold ">
                 United kingdom
               </h3>
