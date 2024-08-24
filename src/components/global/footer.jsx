@@ -158,7 +158,7 @@ function Footer() {
         {/* call to action */}
         {pathname !== "/contact-us" ? (
           <div className="background-animate py-10 lg:py-16 2xl:py-24 w-full h-auto px-5 sm:px-0  bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ">
-            <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+            <div className="sm:w-10/12 2xl:max-w-[100rem] w-full mx-auto px-5 sm:px-0">
               <p className="text-white text-lg lg:text-2xl 2xl:text-4xl py-0 sm:pb-2 2xl:pb-5">
                 Convinced? Confused? Have Ideas?
               </p>
@@ -177,7 +177,7 @@ function Footer() {
 
         {/* Main Footer */}
         <div className="w-full h-auto bg-[#004368] z-40 pt-10 ">
-          <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0 py-5">
+          <div className="sm:w-10/12 2xl:max-w-[100rem] w-full mx-auto px-5 sm:px-0 py-5">
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-y-3 gap-x-0 sm:gap-x-10 justify-between sm:gap-y-2">
               {/* Address */}
               <div>

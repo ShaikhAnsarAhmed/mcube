@@ -23,7 +23,6 @@ const App = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       className="bg-gradient-to-r from-[#608CB6] to-[#004368] w-full h-[600px] 2xl:h-[900px]"
-      height="700px"
       options={{
         // background: {
         //   color: {

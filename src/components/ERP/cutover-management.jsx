@@ -6,7 +6,7 @@ function Cutovermanagement() {
   return (
     <div>
       <div className="py-10">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+        <div className="custom-container ">
           <p className="md:text-xl py-4">
             Cutover management is a critical aspect of any Oracle ERP
             implementation project. It involves the coordination and execution

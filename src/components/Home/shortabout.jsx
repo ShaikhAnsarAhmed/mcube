@@ -6,12 +6,13 @@ import Image from "next/image";
 import CommonCard from "@/components/global/commonCard";
 import { TiArrowRight } from "react-icons/ti";
 import { serviceData } from "@/constant/cardData";
+import "@/utills/tailwind-custom.css";
 import Link from "next/link";
 function Shortabout() {
   return (
     <>
-      <div className="pt-20  sm:pt-0  2xl:pt-20">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+      <div className="pt-20  sm:pt-0  2xl:pt-0">
+        <div className="custom-container">
           <Heading title="About Us" />
           <div className="grid grid-cols-1 lg:grid-cols-2 sm:py-5 sm:pt-5">
             <SubHeadingLeft title="We Believe in Resource Efficiency" />
@@ -24,7 +25,7 @@ function Shortabout() {
                 loading="lazy"
                 width={500}
                 height={500}
-                className=" rounded-lg h-full sm:h-[300px] 2xl:h-[350px] 2xl:w-full sm:w-[450px] w-full "
+                className=" rounded-lg h-full sm:h-[300px] 2xl:h-full 2xl:w-full sm:w-[450px] w-full "
               />
             </div>
             <div className="text-justify ">
@@ -122,7 +123,7 @@ function Shortabout() {
         </div>
       </div>
       <div className="bg-[#eee]">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0 py-5 sm:py-10">
+        <div className="custom-container py-5 sm:py-10">
           <div className="pt-5 sm:pt-10">
             <Heading title="SERVICES" />
             <CommonCard

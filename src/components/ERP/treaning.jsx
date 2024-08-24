@@ -6,7 +6,7 @@ function Treaning() {
   return (
     <div>
       <div className="py-10">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+        <div className="custom-container ">
           <p className="md:text-xl py-4">
             Oracle training is critical for anyone who wants to maximize the
             value of their Oracle investment and fully leverage the power of the

@@ -12,7 +12,7 @@ function About() {
       <>
         <div>
           <div className="py-10 sm:py-20">
-            <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+            <div className="custom-container ">
               <div>
                 <Heading title="Who we are" />
 
@@ -26,7 +26,7 @@ function About() {
             </div>
 
             <div className="py-5 sm:py-10   ">
-              <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+              <div className="custom-container ">
                 <SubHeadingLeft title="Our Mission" />
                 <p className="md:text-xl py-5">
                   Our mission is to help our clients achieve their business
@@ -40,7 +40,7 @@ function About() {
             </div>
           </div>
           <div className="bg-[#eee]">
-            <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0 bg-[#eee] ">
+            <div className="custom-container  bg-[#eee] ">
               <div className="py-20">
                 <p className="md:text-xl">
                   {" "}

@@ -5,7 +5,7 @@ import SubHeadingLeft from "../global/SubHeadingLeft";
 function MobileAttendanceApp() {
   return (
     <div>
-      <div className="py-10 sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+      <div className="py-10 custom-container ">
         <SubHeadingLeft title="Mobile Attendance App Features:" />
         <div className="py-5 grid cols-1 lg:grid-cols-2 gap-10  ">
           <div className="flex items-center justify-center ">
@@ -32,7 +32,7 @@ function MobileAttendanceApp() {
           </div>
         </div>
       </div>
-      <div className="py-10 sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+      <div className="py-10 custom-container ">
         <div className="py-5 grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="flex items-center justify-center order-first lg:order-last">
             <Image
@@ -58,7 +58,7 @@ function MobileAttendanceApp() {
           </div>
         </div>
       </div>
-      <div className="py-10 sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+      <div className="py-10 custom-container ">
         <div className="py-5 grid cols-1 lg:grid-cols-2 gap-10  ">
           <div className="flex items-center justify-center ">
             <Image
@@ -84,7 +84,7 @@ function MobileAttendanceApp() {
           </div>
         </div>
       </div>
-      <div className="py-10 sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+      <div className="py-10 custom-container ">
         <div className="py-5 grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="flex items-center justify-center order-first lg:order-last">
             <Image
@@ -110,7 +110,7 @@ function MobileAttendanceApp() {
           </div>
         </div>
       </div>
-      <div className="py-10 sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+      <div className="py-10 custom-container ">
         <div className="py-5 grid cols-1 lg:grid-cols-2 gap-10  ">
           <div className="flex items-center justify-center ">
             <Image

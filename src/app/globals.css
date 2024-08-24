@@ -47,7 +47,7 @@ body {
 }
 
 .sec-title::before {
-  background-color: #004368;
+  background-color: #d60038;
   content: "";
   display: block;
   height: 3px;
@@ -63,7 +63,7 @@ body {
 }
 
 .sec-title::after {
-  background-color: #004368;
+  background-color: #d60038;
   content: "";
   display: block;
   position: absolute;

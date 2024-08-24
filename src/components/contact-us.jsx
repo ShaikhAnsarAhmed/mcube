@@ -5,6 +5,7 @@ import Heading from "./global/Heading";
 import { toast } from "react-toastify";
 import { send } from "emailjs-com";
 // import MapComponent from "./MapComponent";
+import "@/utills/tailwind-custom.css";
 
 function Contactus() {
   const [formData, setFormData] = useState({
@@ -53,7 +54,7 @@ function Contactus() {
   return (
     <div>
       <div className="py-10 sm:py-10">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+        <div className="custom-container">
           <div>
             <Heading title="Our Locations" />
           </div>

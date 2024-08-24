@@ -7,7 +7,7 @@ function Datamigration() {
     <div>
       <div>
         <div className="py-10">
-          <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+          <div className="custom-container ">
             <p className="md:text-xl py-4">
               Oracle ERP Data Migration is the process of moving data from one
               or more sources to an Oracle ERP system. Here&apos;s a general

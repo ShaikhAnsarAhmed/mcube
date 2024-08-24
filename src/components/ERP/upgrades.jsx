@@ -6,7 +6,7 @@ function Upgrades() {
   return (
     <div>
       <div className="py-10">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+        <div className="custom-container ">
           <p className="md:text-xl py-4">
             {" "}
             Upgrading from EBS (Oracle E-Business Suite) to Oracle Cloud ERP

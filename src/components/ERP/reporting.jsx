@@ -10,7 +10,7 @@ function Reporting() {
   return (
     <div>
       <div className="py-10">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+        <div className="custom-container ">
           <p className="md:text-xl py-4">
             Oracle Transactional Business Intelligence (OTBI) and Business
             Intelligence Publisher (BIP) are two reporting tools offered by

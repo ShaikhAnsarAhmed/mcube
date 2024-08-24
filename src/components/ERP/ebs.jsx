@@ -9,7 +9,7 @@ function Ebs() {
   return (
     <div>
       <div>
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0  py-10">
+        <div className="custom-container   py-10">
           <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 py-5">
             <div>
               <img
@@ -50,7 +50,7 @@ function Ebs() {
         </div>
 
         <div className="relative bg-[url('/images/white-bg.jpg')]  bg-cover bg-center">
-          <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0 py-10">
+          <div className="custom-container  py-10">
             <SubHeadingLeft title="Our Oracle eBusiness Suite ERP implementation services include " />
 
             <div className="pt-14">

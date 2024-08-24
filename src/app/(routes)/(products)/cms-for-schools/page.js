@@ -15,7 +15,7 @@ function ERPschools() {
     <div>
       <LandinBannaer title="CMS For Schools and Collages " />
       <div className="py-10">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+        <div className="custom-container ">
           <p className="md:text-xl py-4">
             {" "}
             Moksha Solution is the place to look for a state-of-the-art College

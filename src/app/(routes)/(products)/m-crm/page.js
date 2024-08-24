@@ -15,7 +15,7 @@ function ERPschools() {
     <div>
       <LandinBannaer title="M-CRM" />
       <div className="py-10">
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+        <div className="custom-container ">
           <p className=" py-4">
             {" "}
             You can define Customer Relationship Management (CRM) in many ways,

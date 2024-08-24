@@ -8,7 +8,7 @@ function Projectmanagement() {
     <div>
       <div>
         <div className="py-10">
-          <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+          <div className="custom-container ">
             <p className="md:text-xl py-4">
               Mcube&apos;s project management methodology and approach refer to
               the set of processes, tools, and techniques used to manage

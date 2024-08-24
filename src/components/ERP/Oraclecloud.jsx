@@ -8,7 +8,7 @@ function Oraclecloud() {
   return (
     <div>
       <div>
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0 py-10">
+        <div className="custom-container  py-10">
           <p className="py-4 md:text-xl ">
             The move to the cloud is one of the biggest technology trends of the
             last decade, and organizations of all sizes are taking advantage of
@@ -19,7 +19,7 @@ function Oraclecloud() {
         </div>
 
         <div className="  bg-[#f7f9fb] border-t border-solid ">
-          <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0 py-10">
+          <div className="custom-container  py-10">
             <div className=" ">
               <p className="md:text-xl justify-center ">
                 {" "}
@@ -112,7 +112,7 @@ function Oraclecloud() {
           </div>
         </div>
 
-        <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0 py-10">
+        <div className="custom-container  py-10">
           <div className="py-10">
             <SubHeadingLeft title=" Why Choose MCube Consulting for your Oracle Cloud ERP  Implementations?" />
           </div>
