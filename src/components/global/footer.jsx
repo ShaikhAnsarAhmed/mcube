@@ -245,8 +245,8 @@ function Footer() {
               </div>
               {/* About US Section */}
               <div className="pb-8 sm:pb-0 flex flex-col  order-1 ">
-                <h1 className="text-red-500  font-extrabold text-2xl sm:text-xl  pb-5  ">
-                  <span className="border-t-4 border-solid border-red-500 text-white pt-[1px]">
+                <h1 className="text-logored  font-extrabold text-2xl sm:text-xl  pb-5  ">
+                  <span className="border-t-[3px] border-solid border-logored text-white pt-[1px]">
                     INFORMATION
                   </span>{" "}
                 </h1>
@@ -283,8 +283,8 @@ function Footer() {
 
               {/* Our Services Section */}
               <div className="pb-8 sm:pb-0 order-2 col-span-1 sm:col-span-2">
-                <h1 className="text-red-500  font-extrabold text-2xl sm:text-xl   pb-5">
-                  <span className="border-t-4 border-solid border-red-500 text-white pt-[1]">
+                <h1 className="text-logored  font-extrabold text-2xl sm:text-xl   pb-5">
+                  <span className="border-t-[3px] border-solid border-logored text-white pt-[1]">
                     OUR
                   </span>{" "}
                   SERVICES

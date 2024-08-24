@@ -7,7 +7,7 @@ function Heading({ title }) {
     <div>
       <FadeUpStagger
         title={title}
-        className="text-center sec-title uppercase text-[#004368]  text-base lg:text-3xl 2xl:text-4xl font-semibold"
+        className="text-center sec-title uppercase text-[#004368]  text-xl lg:text-3xl 2xl:text-4xl font-semibold"
       />
       {/* <h3 className=" text-center sec-title uppercase text-[#004368]  text-base lg:text-3xl 2xl:text-4xl font-semibold">
         {title}

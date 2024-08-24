@@ -10,14 +10,12 @@ function Ebs() {
     <div>
       <div>
         <div className="custom-container   py-10">
-          <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 py-5">
-            <div>
-              <img
-                src="/images/oracalEsute.png"
-                className=" rounded-xl lg:h-[590px]"
-                alt=""
-              />
-            </div>
+          <div className=" grid grid-cols-1 lg:grid-cols-2 gap-x-10 py-5">
+            <img
+              src="/images/oracalEsute.png"
+              className=" rounded-xl lg:h-[590px] 2xl:h-auto w-full"
+              alt=""
+            />
 
             <div>
               <p className="md:text-xl ">

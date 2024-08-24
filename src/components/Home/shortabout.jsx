@@ -123,7 +123,7 @@ function Shortabout() {
         </div>
       </div>
       <div className="bg-[#eee]">
-        <div className="custom-container py-5 sm:py-10">
+        <div className="custom-container py-0 sm:py-10">
           <div className="pt-5 sm:pt-10">
             <Heading title="SERVICES" />
             <CommonCard

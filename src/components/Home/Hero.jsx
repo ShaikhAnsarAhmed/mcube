@@ -28,7 +28,7 @@ function Homepage() {
       <div className="absolute inset-0  ">
         <NewParticle />
       </div>
-      <div className=" relative py-20 custom-container">
+      <div className=" relative py-0 sm:py-16 2xl:py-20 custom-container">
         {/* <div >
           <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2">
             <div>1</div>
