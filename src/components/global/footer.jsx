@@ -7,6 +7,7 @@ import { LuArrowDownRightFromCircle } from "react-icons/lu";
 import { BsFacebook } from "react-icons/bs";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { usePathname } from "next/navigation";
 
 const aboutUsArray = [
   {
@@ -149,26 +150,30 @@ const ourProductsArray = [
 ];
 function Footer() {
   const [activeTab, setActiveTab] = useState(1);
+  const pathname = usePathname();
+  console.log(pathname, "path name");
   return (
     <div>
       <div className="">
         {/* call to action */}
-        <div className="background-animate py-10 lg:py-16 2xl:py-24 w-full h-auto px-5 sm:px-0  bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ">
-          <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
-            <p className="text-white text-lg lg:text-2xl 2xl:text-4xl py-0 sm:pb-2 2xl:pb-5">
-              Convinced? Confused? Have Ideas?
-            </p>
-            <h1 className="text-white text-3xl sm:text-5xl 2xl:text-6xl leading-tight  font-extrabold pb-7 lg:pb-8 2xl:mb-6">
-              Our adaptability and Scalability will surprise you.
-            </h1>
-            <Link
-              className=" mt-7  py-3 px-5 lg:px-8 lg:py-3 2xl:px-10 2xl:py-4 border border-white  bg-transparent text-white text-lg lg:text-lg 2xl:text-2xl font-semibold hover:bg-white hover:text-[#004368] hover:border-white"
-              href="/contact-us"
-            >
-              Let&apos;s talk!
-            </Link>
+        {pathname !== "/contact-us" ? (
+          <div className="background-animate py-10 lg:py-16 2xl:py-24 w-full h-auto px-5 sm:px-0  bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ">
+            <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
+              <p className="text-white text-lg lg:text-2xl 2xl:text-4xl py-0 sm:pb-2 2xl:pb-5">
+                Convinced? Confused? Have Ideas?
+              </p>
+              <h1 className="text-white text-3xl sm:text-5xl 2xl:text-6xl leading-tight  font-extrabold pb-7 lg:pb-8 2xl:mb-6">
+                Our adaptability and Scalability will surprise you.
+              </h1>
+              <Link
+                className=" mt-7  py-3 px-5 lg:px-8 lg:py-3 2xl:px-10 2xl:py-4 border border-white  bg-transparent text-white text-lg lg:text-lg 2xl:text-2xl font-semibold hover:bg-white hover:text-[#004368] hover:border-white"
+                href="/contact-us"
+              >
+                Let&apos;s talk!
+              </Link>
+            </div>
           </div>
-        </div>
+        ) : null}
 
         {/* Main Footer */}
         <div className="w-full h-auto bg-[#004368] z-40 pt-10 ">
