@@ -7,7 +7,7 @@ function Websitedesign() {
       <div className="py-10">
         <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
           <div className="py-10">
-            <SubHeadingLeft title="   INNOVATIVE WEB DESIGN & DEVELOPMENT" />
+            <SubHeadingLeft title="   INNOVATIVE WEBSITE DESIGN & DEVELOPMENT" />
           </div>
           <p className="md:text-xl py-4">
             A website&apos;s design decides whether your visitors stay on your
@@ -33,7 +33,7 @@ function Websitedesign() {
             user interfaces.
           </p>
           <h2 className=" text-xl lg:text-2xl font-medium pb-2 text-[#004368] text-left z-0 ">
-            Static Web Design
+            Static Web Development
           </h2>
 
           <p className="md:text-xl py-4">
@@ -43,7 +43,7 @@ function Websitedesign() {
             world.
           </p>
           <h2 className="capitalize text-xl lg:text-2xl font-medium pb-2 text-[#004368] text-left z-0 ">
-            Dynamic Web Design
+            Dynamic Web Development
           </h2>
           <p className="md:text-xl py-4">
             {" "}
@@ -51,7 +51,7 @@ function Websitedesign() {
             visitors. The plan is to base the design on your sales strategy.
           </p>
           <h2 className="capitalize text-xl lg:text-2xl font-medium pb-2 text-[#004368] text-left z-0 ">
-            Custom Web Design
+            Custom Web Development
           </h2>
           <p className="md:text-xl py-4">
             {" "}
@@ -59,16 +59,16 @@ function Websitedesign() {
             business needs. This helps improve user experience and increase
             conversions.
           </p>
-          <h2 className=" text-xl lg:text-2xl font-medium pb-2 text-[#004368] text-left z-0 ">
-            Responsive Web Design
+          {/* <h2 className=" text-xl lg:text-2xl font-medium pb-2 text-[#004368] text-left z-0 ">
+            Responsive Web Development
           </h2>
           <p className="md:text-xl py-4">
             {" "}
             An attractive responsive web design guarantees an optimal viewing
             experience. This makes your website look good on all devices.
-          </p>
+          </p> */}
           <h2 className=" text-xl lg:text-2xl font-medium pb-2 text-[#004368] text-left z-0 ">
-            E-Commerce Web Design
+            E-Commerce Web Development
           </h2>
           <p className="md:text-xl pt-4">
             MCube&apos;s high-quality and cost-effective eCommerce solutions
@@ -80,7 +80,7 @@ function Websitedesign() {
             to attract the audience. We provide traffic-driven web designs.
           </p>
           <h2 className=" text-xl lg:text-2xl font-medium pb-2 text-[#004368] text-left z-0 ">
-            Start-Up Web Design
+            Start-Up Web Design and Development
           </h2>
           <p className="md:text-xl py-4">
             Let&apos;s restructure the look of your website making it
@@ -88,7 +88,7 @@ function Websitedesign() {
             leads.
           </p>
           <h2 className=" text-xl lg:text-2xl font-medium pb-2 text-[#004368] text-left z-0 ">
-            Web Redesign
+            Web Redevelopment
           </h2>
           <p className="md:text-xl py-4">
             Professional websites need a great strategy to generate leads and we

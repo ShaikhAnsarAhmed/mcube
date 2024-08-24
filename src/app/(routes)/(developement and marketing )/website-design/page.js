@@ -11,7 +11,7 @@ export const metadata = {
 function page() {
   return (
     <>
-      <LandinBannaer title="WEBSITE DESIGN & DEVELOPMENT" />
+      <LandinBannaer title="Website Design And Development" />
       <Websitedesign />
     </>
   );
