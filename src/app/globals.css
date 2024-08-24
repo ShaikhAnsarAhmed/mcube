@@ -21,7 +21,6 @@ body {
 }
 
 @keyframes AnimationName {
-
   0%,
   100% {
     background-position: 0% 50%;
@@ -93,11 +92,11 @@ body {
   }
 }
 
-li>ul {
+li > ul {
   transform: translatex(100%) scale(0);
 }
 
-li:hover>ul {
+li:hover > ul {
   transform: translatex(101%) scale(1);
 }
 
@@ -135,3 +134,11 @@ li:hover>ul {
 }
 
 /* NAVBAR-BUTTONS BOTTOM LINE/BORDER ANIMATION SECTION CSS END */
+
+.loader {
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid #efc100;
+  animation: l20-1 0.8s infinite linear alternate, l20-2 1.6s infinite linear;
+}

@@ -1,20 +1,61 @@
 "use client";
-import React from "react";
-import SubHeadingLeft from "./global/SubHeadingLeft";
+import React, { useState } from "react";
+
 import Heading from "./global/Heading";
+import { toast } from "react-toastify";
+import { send } from "emailjs-com";
+// import MapComponent from "./MapComponent";
 
 function Contactus() {
-  const [checked, setChecked] = React.useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    mobile: "",
+    query: "",
+  });
+  const [isLoader, setisLoader] = useState(false);
 
-  // const handleChange = () => {
-  //   setChecked(!checked);
-  // };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+  const handleSubmitData = (e) => {
+    e.preventDefault();
+    setisLoader(true);
+    const template_id = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    const service_id = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const user_id = process.env.NEXT_PUBLIC_USER_ID;
+
+    console.log(formData, "form data");
+
+    /* --- METHOD TO SEND THE MAIL --- */
+    send(service_id, template_id, formData, user_id)
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        setFormData({
+          name: "",
+          email: "",
+          mobile: "",
+          subject: "",
+          query: "",
+        });
+        toast.success("Your Detail is Submitted Successfully");
+        setisLoader(false);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+        toast.error("Failure in Data Submission");
+        setisLoader(false);
+      });
+  };
+
   return (
     <div>
       <div className="py-10 sm:py-10">
         <div className="sm:w-10/12 2xl:w-10/12 w-full mx-auto px-5 sm:px-0">
           <div>
-            <Heading title="Our Location" />
+            <Heading title="Our Locations" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-5 gap-y-5">
             <div className="bg-[#eee] pl-4 w-full py-2 border-l-4 border-secondary my-0 max-w-[500px]">
@@ -63,11 +104,16 @@ function Contactus() {
             </div>
             <div className=" pt-5 pb-10">
               <div className="max-w-2xl mx-auto">
-                <form>
+                <form onSubmit={handleSubmitData} autoComplete="false">
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div className="relative col-span-2 sm:col-span-1">
                       <input
                         type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
+                        autoComplete="off"
                         id="contact-form-name"
                         className=" rounded-xl border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 focus:outline-none shadow-sm text-base"
                         placeholder="Your Name (required)"
@@ -76,23 +122,23 @@ function Contactus() {
                     <div className="relative col-span-2 sm:col-span-1">
                       <input
                         type="text"
-                        id="contact-form-email"
+                        name="email"
+                        value={formData.email}
+                        required
+                        autoComplete="off"
+                        onChange={handleChange}
                         className=" rounded-xl border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 focus:outline-none shadow-sm text-base"
                         placeholder="Your Email Address (required)"
                       />
                     </div>
-                    {/* <div className="relative col-span-2 sm:col-span-1">
-                      <input
-                        type="text"
-                        id="contact-form-address"
-                        className=" rounded-xl  border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 focus:outline-none shadow-sm text-base"
-                        placeholder="Your Address (required)"
-                      />
-                    </div> */}
+
                     <div className="relative col-span-2 sm:col-span-1">
                       <input
                         type="text"
-                        id="contact-form-phone"
+                        name="mobile"
+                        value={formData.mobile}
+                        onChange={handleChange}
+                        autoComplete="off"
                         className=" rounded-xl border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 focus:outline-none shadow-sm text-base"
                         placeholder="Phone Number"
                       />
@@ -100,6 +146,10 @@ function Contactus() {
                     <div className="relative col-span-2 sm:col-span-1">
                       <input
                         type="text"
+                        name="subject"
+                        value={formData.subject}
+                        onChange={handleChange}
+                        autoComplete="off"
                         id="contact-form-subject"
                         className=" rounded-xl border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 focus:outline-none shadow-sm text-base"
                         placeholder="Subject"
@@ -109,33 +159,30 @@ function Contactus() {
                       <textarea
                         className=" rounded-xl  w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 focus:outline-none bg-white border border-gray-300 shadow-sm"
                         id="comment"
-                        placeholder="Leave us a message"
-                        name="comment"
+                        placeholder="Leave us a message (required)"
+                        type="text"
+                        name="query"
+                        required
+                        value={formData.query}
+                        onChange={handleChange}
                         rows="5"
+                        autoComplete="off"
                       ></textarea>
                     </div>
                     <div className="relative col-span-2 ">
-                      <label className="w-full">
-                        {/* <input
-                          type="checkbox"
-                          checked={checked}
-                          onChange={handleChange}
-                        /> */}
-                        <span className=" text-xs leading-5">
-                          {" "}
-                          By submitting this form, you agree to our Privacy
-                          Policy and consent to the collection, storage, and
-                          processing of your personal data in accordance with
-                          our terms.
-                        </span>
-                      </label>
+                      <p className=" text-xs leading-5">
+                        {" "}
+                        By submitting this form, you agree to our Privacy Policy
+                        and consent to the collection, storage, and processing
+                        of your personal data in accordance with our terms.
+                      </p>
                     </div>
-                    <div className="col-span-2 mx-auto w-1/2 text-right">
+                    <div className="col-span-2 mx-auto  text-right">
                       <button
                         type="submit"
-                        className=" rounded-xl hover:text-white hover:bg-orange-400  py-2 px-4 bg-primary text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md"
+                        className=" rounded-xl hover:text-white hover:bg-logored  py-2 px-4 bg-primary text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md"
                       >
-                        Submit
+                        {isLoader ? <div className="loader"></div> : " Submit"}
                       </button>
                     </div>
                   </div>
