@@ -19,7 +19,7 @@ export const NavData = [
     LinkHref: "/",
   },
   {
-    title: "About",
+    title: "About Us",
     LinkHref: "/About-us",
   },
   {
@@ -113,5 +113,4 @@ export const NavData = [
     title: "Contact Us",
     LinkHref: "/contact-us",
   },
-  {},
 ];
