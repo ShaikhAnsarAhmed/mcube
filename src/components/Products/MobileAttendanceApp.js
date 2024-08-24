@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import SubHeadingLeft from "../global/SubHeadingLeft";
+
+import Heading from "../global/Heading";
 
 function MobileAttendanceApp() {
   return (
     <div>
       <div className="py-10 custom-container ">
-        <SubHeadingLeft title="Mobile Attendance App Features:" />
+        <Heading title="Mobile Attendance App Features" />
         <div className="py-5 grid cols-1 lg:grid-cols-2 gap-10  ">
           <div className="flex items-center justify-center ">
             <Image

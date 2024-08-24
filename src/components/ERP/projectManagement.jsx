@@ -21,9 +21,9 @@ function Projectmanagement() {
               <CommonCard
                 cardData={projectManagementData}
                 className=""
-                listClassName="h-[400px] sm:h-[200px]"
+                listClassName="h-[400px] sm:h-[200px] 2xl:h-[300px]"
                 titleClassName="pb-3"
-                gridData="sm:grid-cols-1"
+                gridData="sm:grid-cols-1 2xl:grid-cols-3"
               />
             </div>
             <p className="md:text-xl ">

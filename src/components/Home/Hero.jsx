@@ -39,16 +39,16 @@ function Homepage() {
 
         <div className="relative  ">
           <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2">
-            <div className="mx-5 sm:mx-0 2xl:mr-0 self-center order-last sm:order-first">
-              <h1 className="text-white text-3xl sm:text-7xl 2xl:text-8xl mb-0 sm:mb-4 2xl:mb-8 tracking-tight font-extrabold leading-tight">
+            <div className="mx-5 mt-10 sm:mx-0 2xl:mr-0 self-center order-first">
+              <h1 className="text-white text-center sm:text-left text-3xl sm:text-7xl 2xl:text-8xl mb-0 sm:mb-4 2xl:mb-8 tracking-tight font-extrabold leading-tight">
                 Streamline Like Never Before
               </h1>
-              <h2 className="text-[#004368] text-3xl lg:text-6xl md:text-6xl 2xl:text-7xl tracking-tight font-extrabold leading-loose">
+              <h2 className="text-logored text-center sm:text-left text-3xl lg:text-6xl md:text-6xl 2xl:text-7xl tracking-tight font-extrabold leading-loose">
                 <span>{text}</span>
                 <Cursor
                   cursorBlinking="false"
                   cursorStyle="|"
-                  cursorColor="#004368"
+                  cursorColor="#D60038"
                 />
               </h2>
               {/* <div className="mt-3 sm:mt-10 2xl:mt-16">

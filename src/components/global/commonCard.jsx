@@ -29,7 +29,7 @@ function CommonCard({
               <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimationyb}
-                  custom={{ delay: i * 0.2 }}
+                  custom={{ delay: i * 0.1 }}
                   className="group z-[1] border-2 mb-10 border-primary/20 ease-out duration-500 hover:border-primary rounded-md relative bg-white"
                 >
                   <div className="text-red-600 absolute shadow-md -top-7 left-4 rounded-full p-3 bg-white border-2 border-[#eee] ease-out duration-500 group-hover:text-white group-hover:bg-primary">
@@ -72,7 +72,7 @@ function CommonCard({
             <ScrollAnimationWrapper key={i}>
               <motion.div
                 variants={scrollAnimationyb}
-                custom={{ delay: i * 0.2 }}
+                custom={{ delay: i * 0.1 }}
                 className="group z-[1] border-2 mb-10 border-primary/20 ease-out duration-500 hover:border-primary rounded-md relative bg-white"
               >
                 <div className="text-red-600 absolute shadow-md -top-7 left-4 rounded-full p-3 bg-white border-2 border-[#eee] ease-out duration-500 group-hover:text-white group-hover:bg-primary">

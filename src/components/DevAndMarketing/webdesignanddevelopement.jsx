@@ -1,13 +1,13 @@
 import React from "react";
-import SubHeadingLeft from "../global/SubHeadingLeft";
+import Heading from "../global/Heading";
 
 function Websitedesign() {
   return (
     <div>
       <div className="py-10">
         <div className="custom-container ">
-          <div className="py-10">
-            <SubHeadingLeft title="   INNOVATIVE WEBSITE DESIGN & DEVELOPMENT" />
+          <div className="">
+            <Heading title="  INNOVATIVE WEBSITE DESIGN & DEVELOPMENT" />
           </div>
           <p className="md:text-xl py-4">
             A website&apos;s design decides whether your visitors stay on your

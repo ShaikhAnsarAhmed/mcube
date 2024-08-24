@@ -1,4 +1,5 @@
 import CommonCard from "@/components/global/commonCard";
+import Heading from "@/components/global/Heading";
 import LandinBannaer from "@/components/global/landingBanner";
 import SubHeadingLeft from "@/components/global/SubHeadingLeft";
 import { mCrm } from "@/constant/cardData";
@@ -16,6 +17,7 @@ function ERPschools() {
       <LandinBannaer title="M-CRM" />
       <div className="py-10">
         <div className="custom-container ">
+          <Heading title="Empowering Customer Relationships" />
           <p className=" py-4">
             {" "}
             You can define Customer Relationship Management (CRM) in many ways,

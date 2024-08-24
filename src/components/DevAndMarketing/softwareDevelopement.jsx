@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import SubHeadingLeft from "@/components/global/SubHeadingLeft";
 import Corosal from "../corosal/corosal";
+import Heading from "../global/Heading";
 
 function Softwaredevelopement() {
   return (
@@ -18,7 +19,12 @@ function Softwaredevelopement() {
       </style>
       <div className="custom-container ">
         <div className="py-10 text-black">
-          <SubHeadingLeft title="MCube Offers Expertise In Coding, Designing, Programming And Testing." />
+          {/* <SubHeadingLeft title="" /> */}
+          <Heading title="MCube: Comprehensive Tech Solutions" />
+          <p className="md:text-xl">
+            MCube Offers Expertise In Coding, Designing, Programming And
+            Testing.
+          </p>
 
           <div className="py-5">
             <div className="py-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">

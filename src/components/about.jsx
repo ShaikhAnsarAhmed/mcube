@@ -5,13 +5,13 @@ import CommonCard from "@/components/global/commonCard";
 import Heading from "@/components/global/Heading";
 import SubHeadingLeft from "@/components/global/SubHeadingLeft";
 import "@/utills/tailwind-custom.css";
-import LandinBannaer from "./global/landingBanner";
+
 function About() {
   return (
     <div>
       <>
         <div>
-          <div className="py-10 sm:py-20">
+          <div className="py-5 sm:py-16">
             <div className="custom-container ">
               <div>
                 <Heading title="Who we are" />
@@ -41,20 +41,20 @@ function About() {
           </div>
           <div className="bg-[#eee]">
             <div className="custom-container  bg-[#eee] ">
-              <div className="py-20">
+              <div className="py-10 sm:py-20">
                 <p className="md:text-xl">
                   {" "}
                   At MCube, we are guided by a set of core values that underpin
                   everything we do. These values include:
                 </p>
 
-                <div className="py-10">
+                <div className="pt-10">
                   <CommonCard
                     cardData={aboutCardData}
-                    gridData="sm:grid-cols-2 2xl:grid-cols-3"
+                    gridData="sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 "
                   />
                 </div>
-                <div className="py-5">
+                <div className="py-0">
                   <p className=" md:text-xl text-left">
                     Our team is made up of experienced professionals with a
                     proven track record of success in Oracle ERP programmes. We

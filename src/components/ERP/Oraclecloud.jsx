@@ -35,7 +35,7 @@ function Oraclecloud() {
                     src="/cards/assignment.jpg"
                     width={400}
                     height={400}
-                    className=" rounded-t-xl"
+                    className=" rounded-t-xl w-full"
                     alt="Picture of the author"
                   />
                   <div className="p-4   group-hover:text-white rounded-b-xl">
@@ -54,7 +54,7 @@ function Oraclecloud() {
                     src="/cards/planning.jpg"
                     width={400}
                     height={400}
-                    className=" rounded-t-xl"
+                    className=" rounded-t-xl w-full "
                     alt="Picture of the author"
                   />
                   <div className="p-4   group-hover:text-white rounded-b-xl">
@@ -74,7 +74,7 @@ function Oraclecloud() {
                     src="/cards/process.jpg"
                     width={400}
                     height={400}
-                    className=" rounded-t-xl"
+                    className=" rounded-t-xl w-full"
                     alt="Picture of the author"
                   />
                   <div className="p-4   group-hover:text-white rounded-b-xl">
@@ -93,10 +93,10 @@ function Oraclecloud() {
                     src="/cards/monitoring.jpg"
                     width={400}
                     height={400}
-                    className=" rounded-t-xl"
+                    className=" rounded-t-xl w-full"
                     alt="Picture of the author"
                   />
-                  <div className="p-4   group-hover:text-white rounded-b-xl">
+                  <div className="p-4 mt-5  group-hover:text-white rounded-b-xl">
                     <p className="md:text-2xl sm:text-xl font-extrabold">
                       Monitoring
                     </p>
@@ -119,8 +119,8 @@ function Oraclecloud() {
           <div className="py-10">
             <CommonCard
               cardData={oracalERPCloudeCardData}
-              gridData="sm:grid-cols-2"
-              descClassName="sm:h-28 h-36"
+              gridData="sm:grid-cols-2 2xl:grid-cols-4"
+              descClassName="sm:h-28 2xl:h-32 h-36"
             />
             <SubHeadingLeft title="Transform Your Business with MCube Consulting" />
             <p className="py-5  md:text-xl">

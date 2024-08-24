@@ -158,15 +158,15 @@ function Footer() {
         {/* call to action */}
         {pathname !== "/contact-us" ? (
           <div className="background-animate py-10 lg:py-16 2xl:py-24 w-full h-auto px-5 sm:px-0  bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ">
-            <div className="sm:w-10/12 2xl:max-w-[100rem] w-full mx-auto px-5 sm:px-0">
-              <p className="text-white text-lg lg:text-2xl 2xl:text-4xl py-0 sm:pb-2 2xl:pb-5">
+            <div className="sm:w-10/12 2xl:max-w-[100rem] flex flex-col items-center  w-full mx-auto px-5 sm:px-0">
+              <p className="text-white text-lg text-center  lg:text-2xl 2xl:text-4xl py-0 sm:pb-2 2xl:pb-5">
                 Convinced? Confused? Have Ideas?
               </p>
-              <h1 className="text-white text-3xl sm:text-5xl 2xl:text-6xl leading-tight  font-extrabold pb-7 lg:pb-8 2xl:mb-6">
+              <h1 className="text-white text-3xl text-center  sm:text-5xl 2xl:text-6xl leading-tight  font-extrabold pb-7 lg:pb-8 2xl:mb-6">
                 Our adaptability and Scalability will surprise you.
               </h1>
               <Link
-                className=" mt-7  py-3 px-5 lg:px-8 lg:py-3 2xl:px-10 2xl:py-4 border border-white  bg-transparent text-white text-lg lg:text-lg 2xl:text-2xl font-semibold hover:bg-white hover:text-[#004368] hover:border-white"
+                className=" mt-3  py-3 px-5 lg:px-8 lg:py-3 mx-auto 2xl:px-10 2xl:py-4 border border-white  bg-transparent text-white text-lg lg:text-lg 2xl:text-2xl font-semibold hover:bg-white hover:text-[#004368] hover:border-white"
                 href="/contact-us"
               >
                 Let&apos;s talk!
@@ -245,10 +245,11 @@ function Footer() {
               </div>
               {/* About US Section */}
               <div className="pb-8 sm:pb-0 flex flex-col  order-1 ">
-                <h1 className="text-logored  font-extrabold text-2xl sm:text-xl  pb-5  ">
-                  <span className="border-t-[3px] border-solid border-logored text-white pt-[1px]">
-                    INFORMATION
+                <h1 className="text-logored  font-extrabold text-2xl sm:text-xl   pb-5">
+                  <span className="border-t-[3px] border-solid border-logored text-white pt-[1]">
+                    QUICK
                   </span>{" "}
+                  LINKS
                 </h1>
                 <div className="flex flex-col  gap-y-2 ">
                   {aboutUsArray.map((item, i) =>

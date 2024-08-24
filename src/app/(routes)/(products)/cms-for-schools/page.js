@@ -1,4 +1,5 @@
 import CommonCard from "@/components/global/commonCard";
+import Heading from "@/components/global/Heading";
 import LandinBannaer from "@/components/global/landingBanner";
 import SubHeadingLeft from "@/components/global/SubHeadingLeft";
 import { CMSsoftwareData } from "@/constant/cardData";
@@ -16,6 +17,7 @@ function ERPschools() {
       <LandinBannaer title="CMS For Schools and Collages " />
       <div className="py-10">
         <div className="custom-container ">
+          <Heading title="Seamless Education Management" />
           <p className="md:text-xl py-4">
             {" "}
             Moksha Solution is the place to look for a state-of-the-art College
@@ -31,9 +33,9 @@ function ERPschools() {
           <div className="py-10">
             <CommonCard
               cardData={CMSsoftwareData}
-              gridData="sm:grid-cols-2"
-              descClassName="sm:h-48 h-32 2xl:h-32"
-              titleClassName="h-20"
+              gridData="sm:grid-cols-2 2xl:grid-cols-4"
+              descClassName="sm:h-48 h-56 2xl:h-72"
+              titleClassName="h-24 sm:h-20 2xl:h-24"
             />
           </div>
         </div>
