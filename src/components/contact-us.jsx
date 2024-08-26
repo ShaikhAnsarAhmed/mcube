@@ -41,7 +41,9 @@ function Contactus() {
           subject: "",
           query: "",
         });
-        toast.success("Your Detail is Submitted Successfully");
+        toast.success(
+          "Thanks for sending us your request, a team member will get in touch to discuss this further."
+        );
         setisLoader(false);
       })
       .catch((err) => {
