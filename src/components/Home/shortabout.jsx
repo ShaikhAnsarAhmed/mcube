@@ -14,10 +14,10 @@ function Shortabout() {
       <div className="pt-20  sm:pt-0  2xl:pt-0">
         <div className="custom-container">
           <Heading title="About Us" />
-          <div className="grid grid-cols-1 lg:grid-cols-2 sm:py-5 sm:pt-5">
+          {/* <div className="grid grid-cols-1 lg:grid-cols-2 sm:py-5 sm:pt-5">
             <SubHeadingLeft title="We Believe in Resource Efficiency" />
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-x-10 py-5 ">
+          </div> */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-x-10 py-0 ">
             <div className=" order-first sm:order-last">
               <Image
                 src="/images/second.jpg"
@@ -30,18 +30,16 @@ function Shortabout() {
             </div>
             <div className="text-justify ">
               <p className=" pt-4 sm:pt-0 pb-4 md:text-xl ">
-                MCube is a leading digital services and consulting company
-                headquartered in the UAE. We empower our clients across the
-                globe to steer their digital transformation journey. Our
-                approach is to understand your requirements and then come up
-                with solutions that best suit your needs. We specialize in
-                Oracle ERP implementations and have an affiliate company that
-                masters Web Development, and Digital Marketing that brings to
-                market some revolutionary products like the Mobile Attendance
-                system which helps companies track the attendance of a diversely
-                spread workforce.
+                MCube Consulting is a leading IT business consulting firm,
+                dedicated to empowering companies on their digital
+                transformation journeys. Since our inception in 2014, we have
+                been committed to delivering tailored solutions that drive
+                business growth, enhance efficiency, and foster long-term
+                success. With offices in the UK and Dubai Silicon Oasis, and a
+                strategic partnership with India's technology powerhouse,
+                Moksha, we are well-positioned to serve a global clientele.
               </p>
-              <div className="font-medium group flex items-center ">
+              <div className="font-medium group flex items-center mt-2">
                 <Link
                   href="/About-us"
                   className="md:text-xl flex text-white bg-[#004368]  px-3 py-1 shadow drop-shadow items-center  "
@@ -78,7 +76,7 @@ function Shortabout() {
                   </p>
                 </div>
                 <div>
-                  <SubHeadingLeft title="Lift, Shift and Solve" />
+                  <SubHeadingLeft title="Lift, Solve and  Succeed" />
                   <p className="py-4 md:text-xl">
                     With a focus on your operational needs, we prepare a
                     strategic, well-defined methodology to guide all our
