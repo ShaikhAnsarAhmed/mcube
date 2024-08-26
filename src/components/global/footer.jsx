@@ -4,9 +4,10 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { LuArrowDownRightFromCircle } from "react-icons/lu";
-import { BsFacebook } from "react-icons/bs";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+// import { BsFacebook } from "react-icons/bs";
+import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
 import { usePathname } from "next/navigation";
 
 const aboutUsArray = [
@@ -197,7 +198,7 @@ function Footer() {
                   {/* social media icons */}
                   <div className="">
                     <div className=" flex sm:justify-start gap-x-4 py-4   sm:gap-x-2 sm:py-3">
-                      <Link href="/" target="_blank">
+                      {/* <Link href="/" target="_blank">
                         <button
                           className="bg-gray-400 hover:bg-white text-white  transition-colors ease-in duration-200
                          hover:text-[#004368]  shadow drop-shadow font-normal h-10 w-10 items-center flex justify-center align-center rounded-full   border-white border-2 border-dotted p-1"
@@ -214,7 +215,7 @@ function Footer() {
                           type="button"
                         >
                           <FaInstagram className="text-2xl" />
-                          {/* <BsTwitter className="text-2xl" /> */}
+                       
                         </button>
                       </Link>
 
@@ -225,18 +226,32 @@ function Footer() {
                           type="button"
                         >
                           <FaXTwitter className="text-2xl" />
-                          {/* <BsTwitter className="text-2xl" /> */}
+                         
+                        </button>
+                      </Link> */}
+                      <Link
+                        href="https://www.youtube.com/@MCube.KTGuru"
+                        target="_blank"
+                      >
+                        <button
+                          className="bg-gray-400 hover:bg-white text-white  transition-colors ease-in duration-200
+                        hover:text-red-600  shadow drop-shadow font-normal h-10 w-10 items-center flex justify-center align-center rounded-full   border-white border-2 border-dotted p-1"
+                          type="button"
+                        >
+                          <FaYoutube className="text-2xl" />
                         </button>
                       </Link>
 
-                      <Link href="/" target="_blank">
+                      <Link
+                        href="https://www.linkedin.com/company/mcube-consulting-ltd/about/"
+                        target="_blank"
+                      >
                         <button
                           className="bg-gray-400 hover:bg-white text-white  transition-colors ease-in duration-200
                         hover:text-blue-900  shadow drop-shadow font-normal h-10 w-10 items-center flex justify-center align-center rounded-full   border-white border-2 border-dotted p-1"
                           type="button"
                         >
                           <FaLinkedinIn className="text-2xl" />
-                          {/* <BsTwitter className="text-2xl" /> */}
                         </button>
                       </Link>
                     </div>
