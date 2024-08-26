@@ -283,7 +283,7 @@ function Footer() {
               </div>
 
               {/* Our Services Section */}
-              <div className="pb-8 sm:pb-0 order-2 col-span-1 sm:col-span-2">
+              <div className="pb-6 sm:pb-0 order-2 col-span-1 sm:col-span-2">
                 <h1 className="text-logored  font-extrabold text-2xl sm:text-xl   pb-5">
                   <span className="border-t-[3px] border-solid border-logored text-white pt-[1]">
                     OUR
