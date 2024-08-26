@@ -1,4 +1,5 @@
-import About from "@/components/about";
+// import About from "@/components/about";
+import AboutUs from "@/components/AboutUs";
 import LandinBannaer from "@/components/global/landingBanner";
 import React from "react";
 
@@ -12,7 +13,8 @@ function page() {
   return (
     <div>
       <LandinBannaer title="About Us" />
-      <About />
+      {/* <About /> */}
+      <AboutUs />
     </div>
   );
 }

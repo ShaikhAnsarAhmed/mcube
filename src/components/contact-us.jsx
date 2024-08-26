@@ -60,35 +60,44 @@ function Contactus() {
           <div>
             <Heading title="Our Locations" />
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-5 gap-y-5">
-            <div className="bg-[#eee] pl-4 w-full py-2 border-l-4 border-secondary my-0 max-w-[500px]">
-              <h3 className="text-primary text-xl font-bold ">Dubai </h3>
-              <p className="py-2 text-lg font-normal">
-                MCube Consulting - FZCO
-                <br /> Building A1, Dubai Digital Park, <br />
-                Dubai Silicon Oasis, <br />
-                Dubai - UAE
-              </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 2xl:grid-cols-2 gap-x-5 gap-y-5">
+            <div className="grid grid-cols-1 gap-y-5">
+              <div className="bg-[#eee] pl-4 w-full py-2 border-l-4 border-secondary my-0 ">
+                <h3 className="text-primary text-xl font-bold ">Dubai </h3>
+                <p className="py-2 text-lg font-normal">
+                  MCube Consulting - FZCO
+                  <br /> Building A1, Dubai Digital Park, <br />
+                  Dubai Silicon Oasis, <br />
+                  Dubai - UAE
+                </p>
+              </div>
+              <div className="bg-[#eee] pl-4 w-full py-2 border-l-4 border-secondary my-0 ">
+                <h3 className="text-primary text-xl font-bold ">
+                  United kingdom
+                </h3>
+                <p className="py-2 text-lg font-normal">
+                  MCube Consulting Limited
+                  <br /> 141 Fen Street, <br />
+                  Brooklands, <br />
+                  Milton Keynes - UK
+                </p>
+              </div>
+              <div className="bg-[#eee] pl-4 w-full py-2 border-l-4 border-secondary my-0 ">
+                <h3 className="text-primary text-xl font-bold ">India</h3>
+                <p className="py-2 text-lg font-normal">
+                  Moksha Solutions (Technology Partners)
+                  <br /> Office No. 311, Sai Trade Centre, <br />
+                  Railway Station Road, Aurangabad, <br />
+                  Maharashtra - India
+                </p>
+              </div>
             </div>
-            <div className="bg-[#eee] pl-4 w-full py-2 border-l-4 border-secondary my-0 max-w-[500px]">
-              <h3 className="text-primary text-xl font-bold ">
-                United kingdom
-              </h3>
-              <p className="py-2 text-lg font-normal">
-                MCube Consulting Limited
-                <br /> 141 Fen Street, <br />
-                Brooklands, <br />
-                Milton Keynes - UK
-              </p>
-            </div>
-            <div className="bg-[#eee] pl-4 w-full py-2 border-l-4 border-secondary my-0 max-w-[500px]">
-              <h3 className="text-primary text-xl font-bold ">India</h3>
-              <p className="py-2 text-lg font-normal">
-                Moksha Solutions (Technology Partners)
-                <br /> Office No. 311, Sai Trade Centre, <br />
-                Railway Station Road, Aurangabad, <br />
-                Maharashtra - India
-              </p>
+            <div className="col-span-2 2xl:col-span-1">
+              <img
+                src="/images/mcubeMap.png"
+                alt=""
+                className="w-full 2xl:h-[500px] sm:h-[600px]"
+              />
             </div>
           </div>
         </div>
