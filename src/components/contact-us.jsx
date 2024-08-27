@@ -60,7 +60,7 @@ function Contactus() {
           <div>
             <Heading title="Our Locations" />
           </div>
-          <div className="bg-[url('/images/mcubeMap.png')] bg-center bg-cover hidden sm:block">
+          <div className="bg-[url('/images/mcubeMap.jpg')] bg-center bg-cover hidden sm:block">
             <div className="grid grid-cols-3">
               <div className="col-span-1">
                 <div className="grid grid-cols-1 gap-y-5">
