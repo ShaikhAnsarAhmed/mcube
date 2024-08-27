@@ -99,9 +99,9 @@ function Contactus() {
             </div>
           </div>
           <div className="sm:hidden grid grid-cols-1  gap-x-5 gap-y-5">
-            <div className=" ">
+            <div className="mt-3 ">
               <img
-                src="/images/mcubeMap.png"
+                src="/images/mcubeMap.jpg"
                 alt=""
                 className="w-full h-auto 2xl:h-auto sm:h-auto"
               />
