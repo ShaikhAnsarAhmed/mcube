@@ -57,7 +57,7 @@ function Contactus() {
     <div>
       <div className="py-10 sm:py-10">
         <div className="custom-container">
-          <div>
+          <div className="mb-5">
             <Heading title="Our Locations" />
           </div>
           <div className="bg-[url('/images/mcubeMap.jpg')] bg-center bg-cover hidden sm:block">
