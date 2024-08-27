@@ -21,7 +21,7 @@ function Softwaredevelopement() {
         <div className="py-10 text-black">
           {/* <SubHeadingLeft title="" /> */}
           <Heading title="MCube: Comprehensive Tech Solutions" />
-          <p className="md:text-xl">
+          <p className="md:text-xl mt-5">
             MCube Offers Expertise In Coding, Designing, Programming And
             Testing.
           </p>
@@ -143,7 +143,7 @@ function Softwaredevelopement() {
       </div>
 
       <div className="py-10 custom-container ">
-        <SubHeadingLeft title="Here Are Some Of Our Software Products:" />
+        <SubHeadingLeft title="Our Software Products" />
         <div className="py-5 grid cols-1 lg:grid-cols-2 gap-10  ">
           <div className="flex items-center justify-center ">
             <Image

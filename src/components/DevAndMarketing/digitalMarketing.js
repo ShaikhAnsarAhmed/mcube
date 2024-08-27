@@ -5,7 +5,7 @@ import Heading from "../global/Heading";
 function DigitalMarketing() {
   return (
     <div className="py-10 custom-container ">
-      <Heading title="Introduction to Mcube Digital Marketing Services" />
+      <Heading title="Digital Marketing Services" />
       <div className="flex flex-col ">
         <p className="md:text-xl py-4">
           This application provides attendance on a daily basis. Users can punch
@@ -17,10 +17,11 @@ function DigitalMarketing() {
           address reports, etc.
         </p>
       </div>
-      <div className="py-10">
+      <div className="pt-5">
         <Heading title="Overview of Social Media Marketing" />
-        <br />
-        <SubHeadingLeft title="What is Social Media Marketing?" />
+        <div className="mt-5">
+          <SubHeadingLeft title="What is Social Media Marketing?" />
+        </div>
         <p className="md:text-xl py-4">
           This application provides attendance on a daily basis. Users can punch
           attendance using various options like WIFI, GPS (Geofencing), GPS
@@ -30,8 +31,9 @@ function DigitalMarketing() {
           reports, for example, day-wise reports, late-in reports, punch-in
           address reports, etc.
         </p>
-        <br />
-        <SubHeadingLeft title="Benefits of Social Media Marketing" />
+        <div className="mt-5">
+          <SubHeadingLeft title="Benefits of Social Media Marketing" />
+        </div>
 
         <div className="md:text-xl py-4">
           <p>
@@ -58,7 +60,9 @@ function DigitalMarketing() {
             </li>
           </ul>
         </div>
-        <SubHeadingLeft title="Platforms Covered by Mcube" />
+        <div className="mt-5">
+          <SubHeadingLeft title="Platforms Covered by Mcube" />
+        </div>
         <div className="md:text-xl py-4">
           <p>
             Mcube offers expert social media marketing services across all major
@@ -136,11 +140,11 @@ function DigitalMarketing() {
           </div>
         </div>
 
-        <div className="py-10">
+        <div className="py-5">
           <Heading title="Website Development" />
           <br />
           <SubHeadingLeft title="Importance of a Well-Designed Website" />
-          <p className="md:text-xl ">
+          <p className="md:text-xl pt-5">
             Your website is often the first impression that potential customers
             have of your business. A well-designed, user-friendly website is
             crucial for establishing credibility and encouraging visitors to
@@ -184,11 +188,12 @@ function DigitalMarketing() {
           </div>
         </div>
 
-        <div className="py-10">
+        <div className="my-5">
           <Heading title="E-Commerce Website Creation" />
-          <br />
-          <SubHeadingLeft title="Why E-Commerce Websites Matter" />
-          <p className="md:text-xl ">
+          <div className="mt-5">
+            <SubHeadingLeft title="Why E-Commerce Websites Matter" />
+          </div>
+          <p className="md:text-xl pt-5">
             In the age of online shopping, having an e-commerce website is
             essential for any retail business. It allows you to reach a global
             audience and operate 24/7, offering customers the convenience to
@@ -234,9 +239,10 @@ function DigitalMarketing() {
         </div>
         <div className="py-10">
           <Heading title="Leads Generation" />
-          <br />
-          <SubHeadingLeft title="What is Leads Generation?" />
-          <p className="md:text-xl ">
+          <div className="mt-5">
+            <SubHeadingLeft title="What is Leads Generation?" />
+          </div>
+          <p className="md:text-xl mt-5">
             Leads generation is the process of attracting and converting
             strangers and prospects into someone who has indicated interest in
             your company's product or service. It's a critical aspect of any

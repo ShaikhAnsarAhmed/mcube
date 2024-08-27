@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "@/components/global/Heading";
 import SubHeadingLeft from "@/components/global/SubHeadingLeft.jsx";
-import SubHeadingRight from "@/components/global/SubHeadingRight.jsx";
+// import SubHeadingRight from "@/components/global/SubHeadingRight.jsx";
 import Image from "next/image";
 import CommonCard from "@/components/global/commonCard";
 import { TiArrowRight } from "react-icons/ti";
@@ -13,7 +13,9 @@ function Shortabout() {
     <>
       <div className="pt-20  sm:pt-0  2xl:pt-0">
         <div className="custom-container">
-          <Heading title="About Us" />
+          <div className="mb-5">
+            <Heading title="About Us" />
+          </div>
           {/* <div className="grid grid-cols-1 lg:grid-cols-2 sm:py-5 sm:pt-5">
             <SubHeadingLeft title="We Believe in Resource Efficiency" />
           </div> */}
@@ -68,7 +70,7 @@ function Shortabout() {
               <div>
                 <div className="py-5 sm:py-10">
                   <SubHeadingLeft title="Transform your Tomorrow" />
-                  <p className="py-4 md:text-xl">
+                  <p className="py-4 md:text-xl text-justify">
                     All businesses are striving hard to stay competitive. It may
                     seem all too complicated to walk over that transformative
                     bridge, but this is where we come in. We assist to give you
@@ -76,8 +78,8 @@ function Shortabout() {
                   </p>
                 </div>
                 <div>
-                  <SubHeadingLeft title="Lift, Solve and  Succeed" />
-                  <p className="py-4 md:text-xl">
+                  <SubHeadingLeft title="Elevate, Streamline and Conquer" />
+                  <p className="py-4 md:text-xl text-justify">
                     With a focus on your operational needs, we prepare a
                     strategic, well-defined methodology to guide all our
                     processes.

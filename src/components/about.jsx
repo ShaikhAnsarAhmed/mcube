@@ -14,9 +14,11 @@ function About() {
           <div className="py-5 sm:py-16">
             <div className="custom-container ">
               <div>
-                <Heading title="Who we are" />
+                <div className="mb-5">
+                  <Heading title="Who we are" />
+                </div>
 
-                <p className="py-2 md:text-xl justify-center">
+                <p className="py-2 md:text-xl  text-justify">
                   Mcube Consulting is a leading consulting Oracle ERP
                   Implementations. Established in 2014, we have been providing
                   expert advice and support to businesses of all sizes across
@@ -28,7 +30,7 @@ function About() {
             <div className="py-5 sm:py-10   ">
               <div className="custom-container ">
                 <SubHeadingLeft title="Our Mission" />
-                <p className="md:text-xl py-5">
+                <p className="md:text-xl py-5 text-justify">
                   Our mission is to help our clients achieve their business
                   objectives by providing innovative and customized solutions
                   that are tailored to their specific needs. We are committed to
@@ -55,14 +57,14 @@ function About() {
                   />
                 </div>
                 <div className="py-0">
-                  <p className=" md:text-xl text-left">
+                  <p className=" md:text-xl text-justify">
                     Our team is made up of experienced professionals with a
                     proven track record of success in Oracle ERP programmes. We
                     pride ourselves on our deep technical knowledge and our
                     ability to develop innovative and effective solutions that
                     deliver tangible business benefits.
                   </p>
-                  <p className=" md:text-xl">
+                  <p className=" md:text-xl text-justify">
                     We are passionate about what we do and are dedicated to
                     helping our clients succeed. If you&apos;re looking for
                     expert advice and support to help you achieve your business
