@@ -19,7 +19,7 @@ function Shortabout() {
           {/* <div className="grid grid-cols-1 lg:grid-cols-2 sm:py-5 sm:pt-5">
             <SubHeadingLeft title="We Believe in Resource Efficiency" />
           </div> */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-x-10 py-0 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-x-10 2xl:gap-x-16 py-0 ">
             <div className=" order-first sm:order-last">
               <Image
                 src="/images/second.jpg"
@@ -27,7 +27,7 @@ function Shortabout() {
                 loading="lazy"
                 width={500}
                 height={500}
-                className=" rounded-lg h-full sm:h-[300px] 2xl:h-full 2xl:w-full sm:w-[450px] w-full "
+                className=" rounded-lg h-full sm:h-[300px] 2xl:h-[300px] 2xl:w-full sm:w-[450px] w-full "
               />
             </div>
             <div className="text-justify ">
@@ -56,7 +56,7 @@ function Shortabout() {
           </div>
 
           <div className="py-10 sm:py-20">
-            <div className="grid grid-col-1 lg:grid-cols-2 gap-x-10 ">
+            <div className="grid grid-col-1 lg:grid-cols-2 gap-x-10 2xl:gap-x-16 ">
               <div>
                 <Image
                   src="/images/city.jpg"
@@ -64,7 +64,7 @@ function Shortabout() {
                   loading="lazy"
                   width={400}
                   height={400}
-                  className=" rounded-lg h-full w-full "
+                  className=" rounded-lg h-full w-full 2xl:h-[350px] "
                 />
               </div>
               <div>

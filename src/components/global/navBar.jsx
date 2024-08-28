@@ -126,7 +126,7 @@ const Header = () => {
                   {openNav && item.subNav && item.title === title ? (
                     <div
                       onMouseLeave={() => setOpenNav(false)}
-                      className="absolute top-12 left-0 z-50 bg-[#fff] shadow-2xl"
+                      className={`absolute top-12 left-0 z-50 bg-[#fff] shadow-2xl`}
                     >
                       <div className=" flex-col divide-y-[1px] divide-logored gap-y-2 ">
                         {item.subNav.map((sub, index) => (

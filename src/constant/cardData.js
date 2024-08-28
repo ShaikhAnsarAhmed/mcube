@@ -649,11 +649,7 @@ const CMSsoftwareData = [
     desc: "It facilitates management of research projects, publications, conferences, patents, and faculty development programmes. It also automates workflows in research courses and funded research project management.",
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
-  {
-    title: "Financial Management",
-    desc: "The automation of all financial transactions is provided through our finance module so as to provide consolidated Balance Sheets, P&L Statement, Cash Flow Analysis, and Budgetary Management. This module has the advantage of amalgamation with other modules for correct financial reporting. It supports comprehensive financial planning and offers real-time financial insights. Additionally, it ensures compliance with financial regulations and standards.",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
-  },
+
   {
     title: "Library and Infrastructure Management",
     desc: "These modules automate the management of library resources and physical infrastructure—essentially focused on efficient use and easy accessibility. They fully support the life cycle of library items and infrastructure assets from procurement to maintenance.",
@@ -667,6 +663,12 @@ const CMSsoftwareData = [
   {
     title: "Feedback and Performance Evaluation",
     desc: "Our CMS contains modules for feedback collection and analysis, performance evaluation based on customizable templates and indicators—this will come in handy in the process of continuous improvement while keeping up with the high standards of education and administration",
+    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+  },
+  {
+    title: "Financial Management",
+    desc: "The automation of all financial transactions is provided through our finance module so as to provide consolidated Balance Sheets, P&L Statement, Cash Flow Analysis, and Budgetary Management. It has the advantage of amalgamation with other modules for correct financial reporting. It supports comprehensive financial planning and offers real-time financial insights.",
+    // Additionally, it ensures compliance with financial regulations and standards.
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
 ];

@@ -27,16 +27,36 @@ function ERPschools() {
             foundations with advanced technologies that provide the highest
             value for colleges and universities.
           </p>
-          <div className="py-10">
+          <div className="pt-10">
             <SubHeadingLeft title="Key Features" />
           </div>
-          <div className="py-10">
+          {/* <div className="py-10">
             <CommonCard
               cardData={CMSsoftwareData}
               gridData="sm:grid-cols-2 2xl:grid-cols-4"
               descClassName="sm:h-48 h-56 2xl:h-72"
               titleClassName="h-24 sm:h-20 2xl:h-24"
             />
+          </div> */}
+          <div className="py-10 ">
+            <div className="grid  grid-cols-1 sm:grid-cols-2 justify-start   items-center ">
+              {CMSsoftwareData.map((item, i) => (
+                <div
+                  key={i}
+                  className="grid grid-cols-10 items-start px-5 py-5 group "
+                >
+                  <div className="bg-[#eee] group-hover:bg-primary  flex items-center rounded-full p-2.5 col-span-1">
+                    {item.icon}
+                  </div>
+                  <div className="ml-3 col-span-9">
+                    <h3 className="font-semibold  uppercase text-left text-xl">
+                      {item.title}
+                    </h3>
+                    <p className=" text-base mt-2 text-justify">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
