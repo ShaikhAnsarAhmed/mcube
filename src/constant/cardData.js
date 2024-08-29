@@ -727,27 +727,7 @@ We can also create the invoices in order detail.
 When everything is okay we click the confirm order button.`,
     icon: <GiConfirmed className=" group-hover:text-white text-3xl" />,
   },
-  {
-    title: "Confirmed Orders",
-    desc: `We can view all confirmed orders list here in this given section. And you also noticed the details here
 
-The confirm order section Order fulfillment executedat with delight of the customer.
-
-Customers are invoiced for the Account teams
-
-Here we can create an e-way bill.
-
-View the Invoice details here
-
-Inventory of items purchased by customer.
-
-Delivery slip generated.
-
-And all other costs such as were incurred in the deal.
-
-Once the product is ready, you get a delivery slip.`,
-    icon: <MdConfirmationNumber className=" group-hover:text-white text-3xl" />,
-  },
   {
     title: "Invoices",
     desc: `View Invoices— As we can see the same all invoices and as well their details.
@@ -775,6 +755,27 @@ In Stock reports, admin can see how many stocks are there in each warehouse.`,
     desc: `In the Master section admin can add/update leads, new/updated products, add BOM and production steps of a product, add Warehouse, add scaling units, product categories, add different materials, entries of all the employees etc.
 `,
     icon: <RiAdminFill className=" group-hover:text-white text-3xl" />,
+  },
+  {
+    title: "Confirmed Orders",
+    desc: `We can view all confirmed orders list here in this given section. And you also noticed the details here
+
+The confirm order section Order fulfillment executedat with delight of the customer.
+
+Customers are invoiced for the Account teams
+
+Here we can create an e-way bill.
+
+View the Invoice details here
+
+Inventory of items purchased by customer.
+
+Delivery slip generated.
+
+And all other costs such as were incurred in the deal.
+
+Once the product is ready, you get a delivery slip.`,
+    icon: <MdConfirmationNumber className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Opportunities",

@@ -1,4 +1,5 @@
-import CommonCard from "@/components/global/commonCard";
+// import CommonCard from "@/components/global/commonCard";
+import CommonFeatures from "@/components/global/commonFeatures";
 import Heading from "@/components/global/Heading";
 import LandinBannaer from "@/components/global/landingBanner";
 import SubHeadingLeft from "@/components/global/SubHeadingLeft";
@@ -33,7 +34,8 @@ function ERPschools() {
             <SubHeadingLeft title="Key Features" />
           </div>
           <div className="py-10">
-            <CommonCard cardData={mCrm} gridData="sm:grid-cols-1" />
+            {/* <CommonCard cardData={mCrm} gridData="sm:grid-cols-2" /> */}
+            <CommonFeatures cardData={mCrm} gridData="sm:grid-cols-2" />
           </div>
         </div>
       </div>
