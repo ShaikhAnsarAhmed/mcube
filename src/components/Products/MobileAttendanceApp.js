@@ -34,10 +34,10 @@ const attendanceData = [
 function MobileAttendanceApp() {
   return (
     <div>
-      <div className="py-10 custom-container ">
+      <div className="py-5 sm:py-10 custom-container ">
         <Heading title="Mobile Attendance App Features" />
 
-        <div className="grid grid-cols-3 gap-x-5 2xl:gap-x-10 2xl:gap-y-10 gap-y-5 my-10">
+        <div className="grid  grid-cols-1 sm:grid-cols-3 gap-x-5 2xl:gap-x-10 2xl:gap-y-10 gap-y-5 my-5 sm:my-10">
           {attendanceData.map((item, i) => (
             <div
               key={i}
@@ -49,7 +49,7 @@ function MobileAttendanceApp() {
                   alt="Destination"
                   className="w-full  mx-auto relative z-0 rounded-t-md transition-all duration-300 group-hover:scale-110"
                 />
-                <div className="absolute bottom-0 font-semibold h-20 2xl:h-0 py-3 text-white bg-primary/60 group-hover:bg-primary/80 w-full sm:text-xl text-center ">
+                <div className="absolute flex flex-col items-center justify-center bottom-0 font-semibold h-20 2xl:h-20 py-0 2xl:py-0 text-white bg-primary/60 group-hover:bg-primary/80 w-full sm:text-xl text-center ">
                   {item.title}
                 </div>
               </div>
