@@ -1,4 +1,5 @@
 import CommonCard from "@/components/global/commonCard";
+import CommonFeatures from "@/components/global/commonFeatures";
 import Heading from "@/components/global/Heading";
 import LandinBannaer from "@/components/global/landingBanner";
 import SubHeadingLeft from "@/components/global/SubHeadingLeft";
@@ -38,8 +39,13 @@ function ERPschools() {
               titleClassName="h-24 sm:h-20 2xl:h-24"
             />
           </div> */}
+
           <div className="py-10 ">
-            <div className="grid  grid-cols-1 sm:grid-cols-2 justify-start   items-center ">
+            <CommonFeatures
+              cardData={CMSsoftwareData}
+              gridData="sm:grid-cols-2 "
+            />
+            {/* <div className="grid  grid-cols-1 sm:grid-cols-2 justify-start   items-center ">
               {CMSsoftwareData.map((item, i) => (
                 <div
                   key={i}
@@ -56,7 +62,7 @@ function ERPschools() {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

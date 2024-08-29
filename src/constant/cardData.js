@@ -6,6 +6,7 @@ import {
   FaFileInvoice,
   FaLayerGroup,
   FaMendeley,
+  FaRegCalendarAlt,
   FaSignal,
   FaSitemap,
   FaTeamspeak,
@@ -13,6 +14,7 @@ import {
   FaUsb,
   FaUserSecret,
   FaUsers,
+  FaWpforms,
 } from "react-icons/fa";
 import {
   AiOutlineCloudServer,
@@ -26,11 +28,19 @@ import {
   AiOutlineApi,
   AiOutlineSisternode,
 } from "react-icons/ai";
-import { SiConvertio, SiGoogleadsense } from "react-icons/si";
-import { RiAdminFill, RiDashboardFill } from "react-icons/ri";
+import {
+  SiConvertio,
+  SiGoogleadsense,
+  SiMicrosoftacademic,
+} from "react-icons/si";
+import { RiAdminFill, RiDashboardFill, RiFeedbackLine } from "react-icons/ri";
 import { HiDocumentReport } from "react-icons/hi";
-import { GiConfirmed } from "react-icons/gi";
-import { MdConfirmationNumber } from "react-icons/md";
+import { GiArchiveResearch, GiConfirmed, GiHumanTarget } from "react-icons/gi";
+import { MdConfirmationNumber, MdDesignServices } from "react-icons/md";
+import { LiaChalkboardTeacherSolid, LiaMoneyCheckSolid } from "react-icons/lia";
+import { FaChildren } from "react-icons/fa6";
+import { PiExam } from "react-icons/pi";
+import { IoLibrarySharp } from "react-icons/io5";
 
 const EBSData = [
   {
@@ -612,64 +622,66 @@ const CMSsoftwareData = [
   {
     title: "Admission Management",
     desc: "Our CMS makes admission automation very easy at the level of course specifications and seat allocation, fee structure, and eligibility criteria. It offers integration with financial modules seamlessly and supports different admission types such as merit-based and entrance examinations.",
-    icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
+    icon: <FaWpforms className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Timetable Automation",
     desc: "It generates and manages automated schedules, considering various factors such as course requirements, the availability of faculty, and infrastructure constraints. It facilitates dynamic adjustments and generates detailed reporting related to timetable changes",
-    icon: <FaSignal className=" group-hover:text-white text-3xl" />,
+    icon: <FaRegCalendarAlt className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Learning Management System (LMS)",
     desc: "Our LMS empowers institutions with tools for digital content creation, delivery, tracking of performance, and assessment. It helps students get learning material anytime, thus facilitating flexible and convenient learning experiences from anywhere",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: (
+      <LiaChalkboardTeacherSolid className=" group-hover:text-white text-3xl" />
+    ),
   },
   {
     title: " Student Attendance",
     desc: "Attendance management: The attendance module supports multi-modal attendance capture from simple manual entries at one end to completely automated, bio.metric-based systems at the other. It also maintains a complete record of attendance and generates detailed reports.",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <FaChildren className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Examination Management",
     desc: "The examination module automates the whole examination process of scheduling, invigilation, compilation of results, and re-evaluation. It supports a diversity of examination formats and ensures efficient, error-free examination workflows.",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <PiExam className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Placement Services",
     desc: "Our CMS manages campus placement processes through Job Posting, Student Registrations, Resume Formations, and Placement Events. It also offers services in the areas of Career Guidance and Pre-Screening",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <MdDesignServices className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Academic Management",
     desc: "The academic module automates all academic activities like course settings, syllabus patterns, concurrent evaluations, and progress monitoring. It aids various programs in education and makes the whole system paperless, which saves a lot of time and reduces costs.",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <SiMicrosoftacademic className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Research Management",
     desc: "It facilitates management of research projects, publications, conferences, patents, and faculty development programmes. It also automates workflows in research courses and funded research project management.",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <GiArchiveResearch className=" group-hover:text-white text-3xl" />,
   },
 
   {
     title: "Library and Infrastructure Management",
     desc: "These modules automate the management of library resources and physical infrastructure—essentially focused on efficient use and easy accessibility. They fully support the life cycle of library items and infrastructure assets from procurement to maintenance.",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <IoLibrarySharp className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Human Resources and Employee Management",
     desc: "The human resource module automates the process related to recruitment, onboarding, training, attendance, leave management, and payroll processing. It ensures efficient management of human resources to support employee satisfaction and productivity.",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <GiHumanTarget className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Feedback and Performance Evaluation",
     desc: "Our CMS contains modules for feedback collection and analysis, performance evaluation based on customizable templates and indicators—this will come in handy in the process of continuous improvement while keeping up with the high standards of education and administration",
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <RiFeedbackLine className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Financial Management",
     desc: "The automation of all financial transactions is provided through our finance module so as to provide consolidated Balance Sheets, P&L Statement, Cash Flow Analysis, and Budgetary Management. It has the advantage of amalgamation with other modules for correct financial reporting. It supports comprehensive financial planning and offers real-time financial insights.",
     // Additionally, it ensures compliance with financial regulations and standards.
-    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+    icon: <LiaMoneyCheckSolid className=" group-hover:text-white text-3xl" />,
   },
 ];
 

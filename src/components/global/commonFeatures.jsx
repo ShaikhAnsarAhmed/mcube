@@ -4,47 +4,31 @@ import { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimationYB from "@/motions/getScrollAnimationYB";
 import ScrollAnimationWrapper from "@/motions/ScrollAnimationWrapper";
-import { FaCheckCircle } from "react-icons/fa";
-import Link from "next/link";
 
-function CommonFeatures({
-  cardData,
-  className = "",
-  titleClassName = "",
-  descClassName = "",
-  listClassName = "",
-  gridData,
-  ...props
-}) {
+function CommonFeatures({ cardData, className = "", gridData, ...props }) {
   const scrollAnimationyb = useMemo(() => getScrollAnimationYB(), []);
   return (
     <div>
       <div
         {...props}
-        className={`grid grid-cols-1  gap-x-5 gap-y-5 ${className} ${gridData}`}
+        className={`grid grid-cols-1 justify-start   items-cente  ${className} ${gridData}`}
       >
         {cardData.map((item, i) => (
           <ScrollAnimationWrapper key={i}>
             <motion.div
               variants={scrollAnimationyb}
               custom={{ delay: i * 0.1 }}
-              className="group z-[1] border-2 mb-10 border-primary/20 ease-out duration-500 hover:border-primary rounded-md relative bg-white"
+              className="grid grid-cols-10 items-start  sm:px-5 py-5 group mb-5"
             >
-              <div className="text-red-600 absolute shadow-md -top-7 left-4 rounded-full p-3 bg-white border-2 border-[#eee] ease-out duration-500 group-hover:text-white group-hover:bg-primary">
+              <div className="bg-[#eee] 2xl:mx-3 text-logored group-hover:text-white group-hover:bg-primary  flex justify-center items-center rounded-full p-1 sm:p-2.5 2xl:p-1 col-span-1">
                 {item.icon}
               </div>
-
-              <h3
-                className={`${titleClassName} text-primary text-left px-5 pb-7 pt-10 text-lg  font-semibold`}
-              >
-                {item.title}
-              </h3>
-
-              {item.desc ? (
-                <div className={`${descClassName}`}>
-                  <p className="pb-5 px-5 text-left">{item.desc}</p>
-                </div>
-              ) : null}
+              <div className="ml-3 col-span-9">
+                <h3 className="font-semibold  uppercase text-left text-xl">
+                  {item.title}
+                </h3>
+                <p className=" text-base mt-2 text-justify">{item.desc}</p>
+              </div>
             </motion.div>
           </ScrollAnimationWrapper>
         ))}
