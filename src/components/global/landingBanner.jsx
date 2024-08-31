@@ -4,7 +4,7 @@ function LandinBannaer(props) {
   return (
     <div
       className="py-[40px] md:py-[190px] w-full md:h-64 h-28 sm:h-44 bg-cover bg-center"
-      style={{ backgroundImage: "url('/banner.jpg')" }}
+      style={{ backgroundImage: "url('/banneroldo.jpg')" }}
     >
       <p className=" font-extrabold max-w-xs sm:max-w-full text-2xl sm:text-5xl mx-auto items-center text-white justify-center text-center">
         {" "}

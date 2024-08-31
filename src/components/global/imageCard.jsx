@@ -20,7 +20,7 @@ function CommonImageCard({ cardData, ...props }) {
               <div className="col-span-1 flex items-center justify-center text-2xl sm:text-3xl py-3 2xl:py-7 sm:m-3 px-0 rounded-full text-white bg-primary">
                 {item.icon}
               </div>
-              <div className="ml-3 col-span-6">
+              <div className="ml-3 col-span-6 2xl:mt-3">
                 <h4 className="font-semibold text-xl mb-2">{item.title}</h4>
                 <p className="text-xl"> {item.desc}</p>
               </div>
