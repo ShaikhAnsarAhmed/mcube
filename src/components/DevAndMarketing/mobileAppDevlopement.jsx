@@ -38,23 +38,33 @@ function Mobileappdevlopement() {
               innovative thinking, efficiency, and satisfaction.
             </p>
           </div>
+
           {/* Android Development */}
           <div className="custom-container ">
-            <div className="pt-10">
-              <SubHeadingLeft title="Android Development and Deployment" />
-            </div>
+            <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-x-5 2xl:gap-x-10 items-center justify-between 2xl:items-start">
+              <div>
+                <div className="pt-10">
+                  <SubHeadingLeft title="Android Development and Deployment" />
+                </div>
 
-            <p className="md:text-xl pt-4">
-              {" "}
-              MCube provides world-class Android development services to
-              clients, ensuring that their applications are designed, developed,
-              and launched with excellence. We cover all the steps involved in
-              the process, right from design and development to testing and
-              deployment. We ensure your app is optimized for performance,
-              security, and usability, while ensuring smooth deployment on the
-              Google Play Store for maximum user reach and a better market
-              impact.
-            </p>
+                <p className="md:text-xl pt-4">
+                  {" "}
+                  MCube provides world-class Android development services to
+                  clients, ensuring that their applications are designed,
+                  developed, and launched with excellence. We cover all the
+                  steps involved in the process, right from design and
+                  development to testing and deployment. We ensure your app is
+                  optimized for performance, security, and usability, while
+                  ensuring smooth deployment on the Google Play Store for
+                  maximum user reach and a better market impact.
+                </p>
+              </div>
+              <img
+                src="/services/social.png"
+                alt=""
+                className="w-[500px] 2xl:h-[600px] 2xl:w-[750px] col-span-1 order-first sm:order-last "
+              />
+            </div>
           </div>
           {/*  iOS Development */}
           <div className="custom-container ">

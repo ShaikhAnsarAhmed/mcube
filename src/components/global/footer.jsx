@@ -22,6 +22,11 @@ const aboutUsArray = [
     link: "/About-us",
   },
   {
+    id: 20,
+    name: "KT Guru",
+    link: "https://www.ktguru.com",
+  },
+  {
     id: 21,
     name: "Mobile Attendance App",
     link: "/mobile-attendance-app",
@@ -152,7 +157,7 @@ const ourProductsArray = [
 function Footer() {
   const [activeTab, setActiveTab] = useState(1);
   const pathname = usePathname();
-  console.log(pathname, "path name");
+  // console.log(pathname, "path name");
   return (
     <div>
       <div className="">
@@ -198,37 +203,6 @@ function Footer() {
                   {/* social media icons */}
                   <div className="">
                     <div className=" flex sm:justify-start gap-x-4 py-4   sm:gap-x-2 sm:py-3">
-                      {/* <Link href="/" target="_blank">
-                        <button
-                          className="bg-gray-400 hover:bg-white text-white  transition-colors ease-in duration-200
-                         hover:text-[#004368]  shadow drop-shadow font-normal h-10 w-10 items-center flex justify-center align-center rounded-full   border-white border-2 border-dotted p-1"
-                          type="button"
-                        >
-                          <BsFacebook className="text-2xl" />
-                        </button>
-                      </Link>
-
-                      <Link href="/" target="_blank">
-                        <button
-                          className="bg-gray-400 hover:bg-white text-white  transition-colors ease-in duration-200
-                        hover:text-red-600  shadow drop-shadow font-normal h-10 w-10 items-center flex justify-center align-center rounded-full   border-white border-2 border-dotted p-1"
-                          type="button"
-                        >
-                          <FaInstagram className="text-2xl" />
-                       
-                        </button>
-                      </Link>
-
-                      <Link href="/" target="_blank">
-                        <button
-                          className="bg-gray-400 hover:bg-white text-white  transition-colors ease-in duration-200
-                        hover:text-black  shadow drop-shadow font-normal h-10 w-10 items-center flex justify-center align-center rounded-full   border-white border-2 border-dotted p-1"
-                          type="button"
-                        >
-                          <FaXTwitter className="text-2xl" />
-                         
-                        </button>
-                      </Link> */}
                       <Link
                         href="https://www.youtube.com/@MCube.KTGuru"
                         target="_blank"
@@ -276,6 +250,7 @@ function Footer() {
                       >
                         <Link
                           href={item.link}
+                          target={item.name == "KT Guru" ? "_blank" : ""}
                           className={` group-hover:text-white font-medium text-sm sm:text-sm flex items-start transition-colors duration-300 ease-in-out ${
                             item.id == activeTab
                               ? "text-gray-400"

@@ -101,6 +101,10 @@ export const NavData = [
     redirect: "#",
     subNav: [
       {
+        LinkHref: "https://www.ktguru.com",
+        title: "KT Guru",
+      },
+      {
         LinkHref: "/mobile-attendance-app",
         title: " Mobile Attendance App",
       },

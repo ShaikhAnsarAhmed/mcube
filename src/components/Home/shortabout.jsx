@@ -22,7 +22,7 @@ function Shortabout() {
           <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-x-10 2xl:gap-x-16 py-0 ">
             <div className=" order-first sm:order-last">
               <Image
-                src="/images/second.jpg"
+                src="/images/second.png"
                 alt="pic"
                 loading="lazy"
                 width={500}
