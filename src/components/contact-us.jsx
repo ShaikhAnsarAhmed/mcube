@@ -78,10 +78,10 @@ function Contactus() {
                       United kingdom
                     </h3>
                     <p className="py-2 text-lg font-normal">
-                      MCube Consulting Limited
-                      <br /> 141 Fen Street, <br />
-                      Brooklands, <br />
-                      Milton Keynes - UK
+                      MCube Consulting Limited<br />
+                     124 City Road, <br />
+London<br />
+EC1V2NX<br />
                     </p>
                   </div>
                   <div className="bg-white/60 pl-4 w-full py-2 border-l-4 border-secondary my-0 ">
