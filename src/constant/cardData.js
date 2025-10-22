@@ -31,12 +31,11 @@ import {
 import {
   SiConvertio,
   SiGoogleadsense,
-  SiMicrosoftacademic,
 } from "react-icons/si";
 import { RiAdminFill, RiDashboardFill, RiFeedbackLine } from "react-icons/ri";
 import { HiDocumentReport } from "react-icons/hi";
 import { GiArchiveResearch, GiConfirmed, GiHumanTarget } from "react-icons/gi";
-import { MdConfirmationNumber, MdDesignServices } from "react-icons/md";
+import { MdConfirmationNumber, MdDesignServices, MdSchool } from "react-icons/md";
 import { LiaChalkboardTeacherSolid, LiaMoneyCheckSolid } from "react-icons/lia";
 import { FaChildren } from "react-icons/fa6";
 import { PiExam } from "react-icons/pi";
@@ -654,7 +653,7 @@ const CMSsoftwareData = [
   {
     title: "Academic Management",
     desc: "The academic module automates all academic activities like course settings, syllabus patterns, concurrent evaluations, and progress monitoring. It aids various programs in education and makes the whole system paperless, which saves a lot of time and reduces costs.",
-    icon: <SiMicrosoftacademic className=" group-hover:text-white text-3xl" />,
+    icon: <MdSchool className=" group-hover:text-white text-3xl" />,
   },
   {
     title: "Research Management",
