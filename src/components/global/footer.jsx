@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { LuArrowDownRightFromCircle } from "react-icons/lu";
+import { LuArrowDownRight } from "react-icons/lu";
 // import { BsFacebook } from "react-icons/bs";
 import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
 // import { FaInstagram } from "react-icons/fa";
@@ -258,7 +258,7 @@ function Footer() {
                           } `}
                         >
                           <div className="pr-2">
-                            <LuArrowDownRightFromCircle
+                            <LuArrowDownRight
                               className={`group-hover:text-white group-hover:-rotate-45 mt-1 transition-transform duration-300 ease-in-out ${
                                 item.id == activeTab ? " " : ""
                               } `}
