@@ -19,7 +19,7 @@ function Ebs() {
 
             <div>
               <p className="md:text-xl ">
-                we specialize in Oracle eBusiness Suite ERP implementation. As a
+                We specialize in Oracle eBusiness Suite ERP implementation. As a
                 leading provider of Oracle consulting services, are committed to
                 delivering the best in className implementation solutions to
                 businesses of all sizes and industries.

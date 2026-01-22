@@ -5,7 +5,7 @@ import SubHeadingLeft from "@/components/global/SubHeadingLeft.jsx";
 import Image from "next/image";
 import CommonCard from "@/components/global/commonCard";
 import { TiArrowRight } from "react-icons/ti";
-import { serviceData } from "@/constant/cardData";
+import { partnersData, serviceData } from "@/constant/cardData";
 import "@/utills/tailwind-custom.css";
 import Link from "next/link";
 function Shortabout() {
@@ -122,7 +122,53 @@ function Shortabout() {
           </div> */}
         </div>
       </div>
-      <div className="bg-[#eee]">
+
+      {/* NEW PARTNERSHIPS SECTION */}
+      <div className=" bg-[#eee]">
+        <div className="custom-container py-10 sm:py-16">
+          <div className="mb-6 text-center">
+            <Heading title="New Partnerships" />
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 2xl:gap-10 pb-5">
+            {partnersData.map((partner) => (
+              <div className="border-2 border-primary/20 ease-out duration-500 hover:border-primary rounded-lg">
+                <div
+                  key={partner.title}
+                  className="group bg-white rounded-lg border border-gray-200 shadow-sm p-6 flex flex-col justify-between h-full"
+                >
+                  <div>
+                    <div className="mb-4 flex items-center gap-3">
+                      <div className="text-red-600  shadow-md -top-7 left-4 rounded-full p-3 bg-white border-2 border-[#eee] ease-out duration-500 group-hover:text-white group-hover:bg-primary">
+                        {partner.icon}
+                      </div>
+                      <h3 className="text-xl font-semibold text-[#004368]">
+                        {partner.title}
+                      </h3>
+                    </div>
+                    <p className="text-justify text-sm md:text-base text-gray-700">
+                      {partner.desc}
+                    </p>
+                  </div>
+
+                  <div className="mt-6">
+                    <Link
+                      href={partner.linkSrc}
+                      className="inline-flex items-center text-sm md:text-base font-medium text-[#004368]"
+                    >
+                      Learn More
+                      <TiArrowRight className="ml-1 transition-transform duration-150 group-hover:translate-x-1" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      {/* END NEW PARTNERSHIPS SECTION */}
+
+      <div>
         <div className="custom-container py-0 sm:py-10">
           <div className="pt-5 sm:pt-10">
             <Heading title="SERVICES" />

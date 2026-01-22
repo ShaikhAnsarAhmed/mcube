@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const productsData = [
   {
     title: "  Mobile Attendance App",
@@ -96,6 +98,23 @@ export const NavData = [
       },
     ],
   },
+
+  {
+    title: "Partnerships",
+    redirect: "#",
+    subNav: [
+      {
+        LinkHref: "/odoo-erp",
+        title: "Odoo ERP Solutions",
+      },
+      {
+        LinkHref: "/tally-solutions",
+        title: " Tally ERP Solutions",
+      },
+    ],
+  },
+
+
   {
     title: "Products",
     redirect: "#",
@@ -112,6 +131,7 @@ export const NavData = [
       { LinkHref: "/m-crm", title: "M-CRM ERP " },
     ],
   },
+ 
 
   {
     title: "Contact Us",

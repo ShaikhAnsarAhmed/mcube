@@ -85,7 +85,7 @@ const Header = () => {
                           scrollY < 150
                             ? `${pathname == "/" ? "text-white" : ""}`
                             : " "
-                        } text-xl px-2 py-[4px] rounded-sm font-semibold cursor-pointer transition ease-linear delay-300 `}
+                        } text-lg px-2 py-[4px] rounded-sm font-semibold cursor-pointer transition ease-linear delay-300 `}
                       >
                         {item.title}
                       </div>
@@ -100,7 +100,7 @@ const Header = () => {
                         scrollY < 150
                           ? `${pathname == "/" ? "text-white" : ""}`
                           : " "
-                      } text-xl px-2 py-[4px] flex justify-between items-center  rounded-sm font-semibold cursor-pointer transition ease-linear delay-300 `}
+                      } text-lg px-2 py-[4px] flex justify-between items-center  rounded-sm font-semibold cursor-pointer transition ease-linear delay-300 `}
                     >
                       <span>{item.title} </span>
                       <span className="pl-1 pt-1">

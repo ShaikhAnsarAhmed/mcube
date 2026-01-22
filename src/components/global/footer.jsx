@@ -168,9 +168,9 @@ function Footer() {
               <p className="text-white text-lg text-center  lg:text-2xl 2xl:text-4xl py-0 sm:pb-2 2xl:pb-5">
                 Convinced? Confused? Have Ideas?
               </p>
-              <h1 className="text-white text-3xl text-center  sm:text-5xl 2xl:text-6xl leading-tight  font-extrabold pb-7 lg:pb-8 2xl:mb-6">
+              <h2 className="text-white text-3xl text-center sm:text-5xl 2xl:text-6xl leading-tight  font-extrabold pb-7 lg:pb-8 2xl:mb-6">
                 Our adaptability and Scalability will surprise you.
-              </h1>
+              </h2>
               <Link
                 className=" mt-3  py-3 px-5 lg:px-8 lg:py-3 mx-auto 2xl:px-10 2xl:py-4 border border-white  bg-transparent text-white text-lg lg:text-lg 2xl:text-2xl font-semibold hover:bg-white hover:text-[#004368] hover:border-white"
                 href="/contact-us"

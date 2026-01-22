@@ -130,6 +130,22 @@ const serviceData = [
   },
 ];
 
+const partnersData = [
+  {
+    linkSrc: "/odoo-erp",
+    title: "Odoo ERP Solutions",
+    icon: <AiOutlineApi className=" group-hover:text-white text-3xl" />,
+    desc: "End-to-end implementation and support for Odoo’s modular ERP, covering CRM, sales, inventory, finance, and HR with tailored deployments on Odoo Online, Odoo.sh, or on-premise.",
+  },
+  {
+    linkSrc: "/tally-solutions",
+    title: "Tally Solutions",
+    icon: <FaFileInvoice className=" group-hover:text-white text-3xl" />,
+    desc: "Implementation and support for Tally’s accounting and inventory platform, including setup, migration, VAT, payroll, invoicing, reporting, and statutory compliance with training and ongoing support.",
+  },
+];
+
+
 const aboutCardData = [
   {
     title: "Integrity",
@@ -174,6 +190,52 @@ const oracalERPCloudeCardData = [
     icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
   },
 ];
+const odooERPServiceData = [
+  {
+    title: " Experienced Odoo Consultants",
+    desc: " Our Odoo experts have a strong grasp of business transformation while knowing how to apply Odoo’s modular system to improve and simplify your operations. This experience shows in our approach and often influences the way we shape each implementation.",
+    icon: <FaUserSecret className=" group-hover:text-white text-3xl" />,
+  },
+  {
+    title: "Tailored Implementation Approach",
+    desc: " Every Odoo project is shaped to fit your organisation’s everyday working patterns and goals. We select the right modules and configurations and set up with your team in mind, and integrations to create a solution that truly matches your business needs. That level of fit makes a difference.",
+    icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
+  },
+  {
+    title: "Results-Driven Execution",
+    desc: " Our focus is on producing measurable improvements, higher efficiency, less manual work and better overall visibility across your organisation. Your success metrics really guide our implementation. It helps keep every step in step.",
+    icon: <FaSignal className=" group-hover:text-white text-3xl" />,
+  },
+  {
+    title: "Comprehensive Odoo ERP Services",
+    desc: "From process mapping and module selection to custom development, data migration, user training, when needed, and continuous support, our Odoo services cover every stage of your ERP journey from start to finish. It keeps the experience fairly consistent.",
+    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+  },
+];
+
+const tallyERPServiceData = [
+  {
+    title: " Experienced Tally Consultants",
+    desc: "Our Tally specialists bring deep practical expertise of financial systems, compliance requirements, and automation tools, ensuring your Tally implementation is accurate, reliable, and in step with your business goals. This experience shapes our approach.",
+    icon: <FaUserSecret className=" group-hover:text-white text-3xl" />,
+  },
+  {
+    title: "Tailored Implementation Approach",
+    desc: " Every Tally deployment is customised to your organisation’s accounting processes as they function day by day, whether you need VAT setup, payroll configuration, inventory tracking, or invoicing formats tailored to your workflow. It keeps the system closely in tune with real use.",
+    icon: <FaLayerGroup className=" group-hover:text-white text-3xl" />,
+  },
+  {
+    title: "Results-Driven Execution",
+    desc: " We focus on delivering measurable improvements, better financial accuracy, less repetitive work, faster reporting across departments, and smoother daily operations. These gains, add up quickly. Your business outcomes guide every stage of our implementation.",
+    icon: <FaSignal className=" group-hover:text-white text-3xl" />,
+  },
+  {
+    title: "Comprehensive Odoo ERP Services",
+    desc: "Our Tally services include system setup, data migration, VAT configuration, payroll setup, custom reporting, user training, integration support, and ongoing assistance after implementation, covering your entire financial automation journey. So nothing important gets overlooked.",
+    icon: <FaSitemap className=" group-hover:text-white text-3xl" />,
+  },
+];
+
 const projectManagementData = [
   {
     title: " Project Planning",
@@ -795,8 +857,11 @@ export {
   mCrm,
   EBSData,
   serviceData,
+  partnersData,
   aboutCardData,
   oracalERPCloudeCardData,
+  odooERPServiceData,
+  tallyERPServiceData,
   projectManagementData,
   DataMigrationData,
   ManagedServicesData,
