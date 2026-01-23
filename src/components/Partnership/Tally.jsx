@@ -28,12 +28,13 @@ function Tally() {
           </div>
           <div className="image mx-auto">
             <Image
-              src="/images/tally.jpg"
+              src="/images/tally.png"
               alt="pic"
               loading="lazy"
-              width={400}
-              height={400}
-              className=" rounded-lg h-[400px] w-[400px] 2xl:h-[350px] "
+              width={621}
+              height={200}
+              className="object-contain"
+
             />
           </div>
         </div>

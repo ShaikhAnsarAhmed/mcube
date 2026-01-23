@@ -10,6 +10,15 @@ function OdooERP() {
       <div>
         <div className="custom-container grid grid-cols-1 md:grid-cols-2 gap-6 py-10">
           <div className="text">
+            {/* <div className="mb-4">
+              <Image
+                src="/images/odoo_logo.png"
+                alt="Odoo Logo"
+                width={150}
+                height={60}
+                className="object-contain"
+              />
+            </div> */}
             <h2 className="md:text-4xl">
               <SubHeadingLeft title=" Odoo ERP Implementation and Support with MCube Consulting" />
             </h2>
@@ -25,14 +34,15 @@ function OdooERP() {
               stands out.
             </p>
           </div>
-          <div className="image ml-3 mb-3">
+          <div className="image ml-3 mb-3 md:pt-30">
             <Image
-              src="/images/odooerp.jpg"
+              src="/images/odoo_logo.png"
               alt="pic"
               loading="lazy"
-              width={400}
-              height={400}
-              className=" rounded-lg h-full w-full 2xl:h-[350px] "
+              width={621}
+              height={200}
+              className="object-contain"
+
             />
           </div>
         </div>
